@@ -1,5 +1,4 @@
 vless://199a78a5-b4d4-4064-a0db-bb37c5839134@212.192.31.146:443/?type=ws&encryption=none&flow=&host=m.vk.com&path=%2Fpanika#🇩🇪Germany Общий CDN
-vless://f667a096-5231-4cfb-8759-92bb32473139@77.91.68.70:55983/?type=tcp&encryption=none&flow=&sni=yahoo.com&fp=chrome&security=reality&pbk=nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqY
 vless://199a78a5-b4d4-4064-a0db-bb37c5839134@212.192.31.146:443/?type=ws&encryption=none&flow=&path=%2Fpanika#🇩🇪SNI Germany (ALT)
 vless://af552d84-cefb-4952-a814-17f284c21080@51.68.189.39:80/?type=ws&encryption=none&flow=&host=m.vk.com&path=%2Fvless%2F#🇫🇷SNI France 
 vless://4c54aa59-3f7a-4257-bad6-5f2def2d9fb8@157.173.195.208:8081/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yahoo.com&fp=chrome&security=reality&pbk=maeBz8hpeApypC47VuYULiB8zupTv1HxlPpRJ5QsOUI&sid=9d41#🇳🇱CDN Netherland
@@ -10,7 +9,7 @@ vless://germany@92.51.36.98:443?type=tcp&security=reality&pbk=QLv-WCK7-qRPbxhbeq
 vless://russia@russia.whitenet.online:443?type=tcp&security=reality&pbk=xdNyDss0OLTu3z6kcdg8X2wfTOLtmDTobE2on3vKe34&fp=chrome&sni=vk.com&sid=ab1cd2&spx=%2F&flow=xtls-rprx-vision#🇷🇺 VKC Russia
 vless://863a162f-4b57-4269-8b99-fdad2247f6f2@94.158.219.186:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yastatic.net&fp=chrome&security=reality&pbk=MfWJz9HY0BvpTeAAOUBgfZov9T39GvVXV_-RmFIrLko&sid=4ae930dc#🇱🇻 SNI Latvia (ALT)
 vless://0ba6ab83-ed33-4544-98b0-dcacb52799cd@109.120.150.205:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ad.mail.ru&fp=chrome&security=reality&pbk=GofDu1_VYmj-QvNZZShKrPEw5_rAVDpxohAwZwJ8cjw&sid=a60d#🇳🇱 SNI Netherlands (ALT 2)
-vless://045eb821-bdae-43c5-8945-9cb181e65dcb@77.110.109.72:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ad.mail.ru&fp=chrome&security=reality&pbk=MIVrDwJBfit7cvJlTyt4z8So78Sidkb0cZFy5BW2NRE&sid=96#🇺🇲 SNI USA
+vless://045eb821-bdae-43c5-8945-9cb181e65dcb@77.110.109.72:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ad.mail.ru&fp=chrome&security=reality&pbk=MIVrDwJBfit7cvJlTyt4z8So78Sidkb0cZFy5BW2NRE&sid=96#🇺🇸 SNI USA
 vless://8de85bc6-4f12-47e0-872f-3794b4ef9783@217.16.24.170:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=sun6-21.userapi.com&security=reality&pbk=8OsJx6xuHcpL_5e1w0U4bMBa-icevDgvvzNwPwZbORQ&sid=5540e44a53c3d01c#🇷🇺 VKC Russia (ALT)
 vless://393044fb-755a-4623-965e-3ae4fe39d730@83.222.20.64:53299/?type=ws&encryption=none&flow=&host=m.vk.com&path=%2F#🇱🇻 VKCLatvia
 vless://kz784@111.88.140.188:443?type=tcp&security=reality&pbk=vt7vwHA0-9SDmmAbA3zi0t_hXa8So8-gzdzfO_BBMAQ&fp=chrome&sni=vk.com&sid=ab1cd2&spx=%2F&flow=xtls-rprx-vision#🇰🇿 VKC Kazakhstan 
