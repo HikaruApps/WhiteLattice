@@ -1,5 +1,5 @@
 vless://199a78a5-b4d4-4064-a0db-bb37c5839134@212.192.31.146:443/?type=ws&encryption=none&flow=&host=m.vk.com&path=%2Fpanika#🇩🇪Germany
-‎vless://Parsashonam-322@188.245.217.190:443?mode=auto&path=%2FParsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam&security=reality&encryption=none&pbk=LOi-3brURXBaOe83KFpaKZ5A4exl3J9qjeZIIWa8GCQ&fp=chrome&spx=%2F&type=xhttp&sni=google.com&sid=0a8b4a1ad485#🇩🇪Germany ALT 1
+‎
 vless://af552d84-cefb-4952-a814-17f284c21080@51.68.189.39:80/?type=ws&encryption=none&flow=&host=m.vk.com&path=%2Fvless%2F#🇫🇷France
 vless://bec44ac3-a662-4179-a9dd-2aa881706dde@157.173.127.224:443?security=reality&encryption=none&pbk=Ajk0QudeMVQocN88OG14PpsxparFuRJlvqzXDlW-gyQ&headerType=none&fp=chrome&type=tcp&sni=analytics.google.com&sid=aba7bc9a#🇫🇷France ALT
 ‎
