@@ -1,5 +1,5 @@
 vless://199a78a5-b4d4-4064-a0db-bb37c5839134@212.192.31.146:443/?type=ws&encryption=none&flow=&host=m.vk.com&path=%2Fpanika#🇩🇪Germany 
-vless://199a78a5-b4d4-4064-a0db-bb37c5839134@212.192.31.146:443/?type=ws&encryption=none&flow=&path=%2Fpanika#🇩🇪SNI Germany 
+vless://199a78a5-b4d4-4064-a0db-bb37c5839134@212.192.31.146:443/?type=ws&encryption=none&flow=&path=%2Fpanika#🇩🇪Germany 
 vless://af552d84-cefb-4952-a814-17f284c21080@51.68.189.39:80/?type=ws&encryption=none&flow=&host=m.vk.com&path=%2Fvless%2F#🇫🇷France 
 vless://4c54aa59-3f7a-4257-bad6-5f2def2d9fb8@157.173.195.208:8081/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yahoo.com&fp=chrome&security=reality&pbk=maeBz8hpeApypC47VuYULiB8zupTv1HxlPpRJ5QsOUI&sid=9d41#🇳🇱Netherland
 vless://2558c819-1363-4859-8fb9-f8cb104d49d2@176.223.66.8:39948/?encryption=none&flow=&host=m.vk.com&type=tcp&headerType=http#🇹🇷Turkey
