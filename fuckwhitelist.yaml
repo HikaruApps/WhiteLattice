@@ -1,63 +1,77 @@
 # Clash Configuration
-# Generated: 22.11.2025, 01:16:55
+# Generated: 22.11.2025
 # Proxies: 5
 
 proxies:
-  - {
-        "name": "🇫🇮Finland - WhiteList - Beeline",
-        "type": "vless",
-        "server": "185.40.155.13",
-        "port": 443,
-        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
-        "udp": true,
-        "tls": true,
-        "servername": "api.fastload.site",
-        "network": "xhttp"
-    }
-  - {
-        "name": "🇫🇮Finland - WhiteList - Beeline [2]",
-        "type": "vless",
-        "server": "194.67.192.10",
-        "port": 443,
-        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
-        "udp": true,
-        "tls": true,
-        "servername": "api.fastload.site",
-        "network": "xhttp"
-    }
-  - {
-        "name": "🇳🇱 Netherlands - WhiteList - Beeline",
-        "type": "vless",
-        "server": "api.furypay.ru",
-        "port": 443,
-        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
-        "udp": true,
-        "tls": true,
-        "servername": "api.furypay.ru",
-        "network": "xhttp"
-    }
-  - {
-        "name": "🇳🇱 Netherlands - WhiteList - Beeline [2]",
-        "type": "vless",
-        "server": "85.209.69.13",
-        "port": 443,
-        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
-        "udp": true,
-        "tls": true,
-        "servername": "api.furypay.ru",
-        "network": "xhttp"
-    }
-  - {
-        "name": "🇸🇪 Sweden - WhiteList - Beeline | MegaFon",
-        "type": "vless",
-        "server": "gretwo.dnsttlocate.ru",
-        "port": 443,
-        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
-        "udp": true,
-        "tls": true,
-        "servername": "gretwo.dnsttlocate.ru",
-        "network": "xhttp"
-    }
+  - name: "🇫🇮Finland - WhiteList - Beeline"
+    type: vless
+    server: 185.40.155.13
+    port: 443
+    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
+    udp: true
+    tls: true
+    servername: api.fastload.site
+    network: http
+    http-opts:
+      path: "/"
+      host:
+        - "api.fastload.site"
+
+  - name: "🇫🇮Finland - WhiteList - Beeline [2]"
+    type: vless
+    server: 194.67.192.10
+    port: 443
+    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
+    udp: true
+    tls: true
+    servername: api.fastload.site
+    network: http
+    http-opts:
+      path: "/"
+      host:
+        - "api.fastload.site"
+
+  - name: "🇳🇱Netherlands - WhiteList - Beeline"
+    type: vless
+    server: api.furypay.ru
+    port: 443
+    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
+    udp: true
+    tls: true
+    servername: api.furypay.ru
+    network: http
+    http-opts:
+      path: "/"
+      host:
+        - "api.furypay.ru"
+
+  - name: "🇳🇱Netherlands - WhiteList - Beeline [2]"
+    type: vless
+    server: 85.209.69.13
+    port: 443
+    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
+    udp: true
+    tls: true
+    servername: api.furypay.ru
+    network: http
+    http-opts:
+      path: "/"
+      host:
+        - "api.furypay.ru"
+
+  - name: "🇸🇪Sweden - WhiteList - Beeline | MegaFon"
+    type: vless
+    server: gretwo.dnsttlocate.ru
+    port: 443
+    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
+    udp: true
+    tls: true
+    servername: gretwo.dnsttlocate.ru
+    network: http
+    http-opts:
+      path: "/"
+      host:
+        - "gretwo.dnsttlocate.ru"
 
 proxy-groups:
   - name: "🚀 Proxy"
@@ -65,18 +79,18 @@ proxy-groups:
     proxies:
       - "🇫🇮Finland - WhiteList - Beeline"
       - "🇫🇮Finland - WhiteList - Beeline [2]"
-      - "🇳🇱 Netherlands - WhiteList - Beeline"
-      - "🇳🇱 Netherlands - WhiteList - Beeline [2]"
-      - "🇸🇪 Sweden - WhiteList - Beeline | MegaFon"
+      - "🇳🇱Netherlands - WhiteList - Beeline"
+      - "🇳🇱Netherlands - WhiteList - Beeline [2]"
+      - "🇸🇪Sweden - WhiteList - Beeline | MegaFon"
 
   - name: "♻️ Auto"
     type: url-test
     proxies:
       - "🇫🇮Finland - WhiteList - Beeline"
       - "🇫🇮Finland - WhiteList - Beeline [2]"
-      - "🇳🇱 Netherlands - WhiteList - Beeline"
-      - "🇳🇱 Netherlands - WhiteList - Beeline [2]"
-      - "🇸🇪 Sweden - WhiteList - Beeline | MegaFon"
+      - "🇳🇱Netherlands - WhiteList - Beeline"
+      - "🇳🇱Netherlands - WhiteList - Beeline [2]"
+      - "🇸🇪Sweden - WhiteList - Beeline | MegaFon"
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
