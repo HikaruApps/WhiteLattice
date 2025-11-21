@@ -1,144 +1,149 @@
-proxy-groups:
-  - name: "PROXY"
-    type: select
-    proxies:
-      - "Austria - 100 Gb"
-      - "Japanese - 100 Gb"
-      - "Europa - 100 Gb - Whitelist"
-      - "Germany - WhiteList"
-      - "Germany ALT - WhiteList"
-      - "Latvia - WhiteList - MegaFon T2 Yota"
-      - "Finland - WhiteList - MegaFon T2 Yota"
-      - "Russia - WhiteList 1"
-      - "Russia - WhiteList 2"
-      - "Russia - WhiteList MTS Beeline"
-
-  - name: "Auto-Test"
-    type: url-test
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
-    use:
-      - "Austria - 100 Gb"
-      - "Japanese - 100 Gb"
-      - "Europa - 100 Gb - Whitelist"
-      - "Germany - WhiteList"
-      - "Germany ALT - WhiteList"
-      - "Latvia - WhiteList - MegaFon T2 Yota"
-      - "Finland - WhiteList - MegaFon T2 Yota"
-      - "Russia - WhiteList 1"
-      - "Russia - WhiteList 2"
-      - "Russia - WhiteList MTS Beeline"
-
-rules:
-  - 'MATCH,PROXY'
+# Clash Configuration
+# Generated: 21.11.2025, 23:29:07
+# Proxies: 10
 
 proxies:
-  - name: "Austria - 100 Gb"
-    type: vless
-    server: au.goyit.com
-    port: 443
-    uuid: 3e21d5fa-cdb4-4a7c-946d-a714662fb9f1
-    flow: xtls-rprx-vision
-    network: tcp
-    security: reality
-    sni: au.goyit.com
-    pbk: allie2fIn-OelgdhG-87lNe_-qOul0hzaE0Y9IcuwD4
+  - {
+        "name": "🇦🇹Austria - 100 Gb",
+        "type": "vless",
+        "server": "au.goyit.com",
+        "port": 443,
+        "uuid": "3e21d5fa-cdb4-4a7c-946d-a714662fb9f1",
+        "udp": true,
+        "tls": true,
+        "servername": "au.goyit.com",
+        "network": "tcp"
+    }
+  - {
+        "name": "🇯🇵Japanese - 100 Gb",
+        "type": "vless",
+        "server": "jp.goyit.com",
+        "port": 443,
+        "uuid": "3e21d5fa-cdb4-4a7c-946d-a714662fb9f1",
+        "udp": true,
+        "tls": true,
+        "servername": "jp.goyit.com",
+        "network": "tcp"
+    }
+  - {
+        "name": "🇪🇺Europa - 100 Gb - Whitelist",
+        "type": "vless",
+        "server": "152.53.149.165",
+        "port": 443,
+        "uuid": "3e21d5fa-cdb4-4a7c-946d-a714662fb9f1",
+        "udp": true,
+        "tls": true,
+        "servername": "sun6-22.userapi.com",
+        "network": "tcp"
+    }
+  - {
+        "name": "🇩🇪Germany - WhiteList",
+        "type": "vless",
+        "server": "178.154.201.52",
+        "port": 4249,
+        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
+        "udp": true,
+        "tls": true,
+        "servername": "eh.vk.com",
+        "network": "tcp"
+    }
+  - {
+        "name": "🇩🇪 Germany ALT - WhiteList",
+        "type": "vless",
+        "server": "178.154.201.52",
+        "port": 4249,
+        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
+        "udp": true,
+        "tls": true,
+        "servername": "sun6-22.userapi.com",
+        "network": "tcp"
+    }
+  - {
+        "name": "🇱🇻Latvia - WhiteList - MegaFon | T2 | Yota",
+        "type": "vless",
+        "server": "84.201.161.178",
+        "port": 4249,
+        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
+        "udp": true,
+        "tls": true,
+        "servername": "sun6-22.userapi.com",
+        "network": "tcp"
+    }
+  - {
+        "name": "🇫🇮Finland - WhiteList - MegaFon | T2 | Yota",
+        "type": "vless",
+        "server": "84.201.152.123",
+        "port": 4249,
+        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
+        "udp": true,
+        "tls": true,
+        "servername": "sun6-22.userapi.com",
+        "network": "tcp"
+    }
+  - {
+        "name": "🇷🇺Russia - WhiteList",
+        "type": "vless",
+        "server": "51.250.75.27",
+        "port": 443,
+        "uuid": "00f02ab2-6f2d-449f-a089-d182a2fac59a",
+        "udp": true,
+        "tls": true,
+        "servername": "eh.vk.com",
+        "network": "tcp"
+    }
+  - {
+        "name": "🇷🇺Russia - WhiteList",
+        "type": "vless",
+        "server": "84.201.162.104",
+        "port": 443,
+        "uuid": "00f02ab2-6f2d-449f-a089-d182a2fac59a",
+        "udp": true,
+        "tls": true,
+        "servername": "sun6-21.userapi.com",
+        "network": "tcp"
+    }
+  - {
+        "name": "🇷🇺Russia - WhiteList - MTS | Beeline",
+        "type": "vless",
+        "server": "51.250.20.121",
+        "port": 443,
+        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
+        "udp": true,
+        "tls": true,
+        "servername": "eh.vk.com",
+        "network": "tcp"
+    }
 
-  - name: "Japanese - 100 Gb"
-    type: vless
-    server: jp.goyit.com
-    port: 443
-    uuid: 3e21d5fa-cdb4-4a7c-946d-a714662fb9f1
-    flow: xtls-rprx-vision
-    network: tcp
-    security: reality
-    sni: jp.goyit.com
-    pbk: allie2fIn-OelgdhG-87lNe_-qOul0hzaE0Y9IcuwD4
+proxy-groups:
+  - name: "🚀 Proxy"
+    type: select
+    proxies:
+      - "🇦🇹Austria - 100 Gb"
+      - "🇯🇵Japanese - 100 Gb"
+      - "🇪🇺Europa - 100 Gb - Whitelist"
+      - "🇩🇪Germany - WhiteList"
+      - "🇩🇪 Germany ALT - WhiteList"
+      - "🇱🇻Latvia - WhiteList - MegaFon | T2 | Yota"
+      - "🇫🇮Finland - WhiteList - MegaFon | T2 | Yota"
+      - "🇷🇺Russia - WhiteList"
+      - "🇷🇺Russia - WhiteList"
+      - "🇷🇺Russia - WhiteList - MTS | Beeline"
 
-  - name: "Europa - 100 Gb - Whitelist"
-    type: vless
-    server: 152.53.149.165
-    port: 443
-    uuid: 3e21d5fa-cdb4-4a7c-946d-a714662fb9f1
-    flow: xtls-rprx-vision
-    network: tcp
-    security: reality
-    sni: sun6-22.userapi.com
-    pbk: zA_XAPCftAya2aqXHE6yTVOh82UUCtzSVHDPVqXhVQk
+  - name: "♻️ Auto"
+    type: url-test
+    proxies:
+      - "🇦🇹Austria - 100 Gb"
+      - "🇯🇵Japanese - 100 Gb"
+      - "🇪🇺Europa - 100 Gb - Whitelist"
+      - "🇩🇪Germany - WhiteList"
+      - "🇩🇪 Germany ALT - WhiteList"
+      - "🇱🇻Latvia - WhiteList - MegaFon | T2 | Yota"
+      - "🇫🇮Finland - WhiteList - MegaFon | T2 | Yota"
+      - "🇷🇺Russia - WhiteList"
+      - "🇷🇺Russia - WhiteList"
+      - "🇷🇺Russia - WhiteList - MTS | Beeline"
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
 
-  - name: "Germany - WhiteList"
-    type: vless
-    server: 178.154.201.52
-    port: 4249
-    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    flow: xtls-rprx-vision
-    network: tcp
-    security: reality
-    sni: eh.vk.com
-    pbk: XX21xslnJqI9QkSTDAdMihXSIioiin7epvDyk5dHfSc
-
-  - name: "Germany ALT - WhiteList"
-    type: vless
-    server: 178.154.201.52
-    port: 4249
-    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    flow: xtls-rprx-vision
-    network: tcp
-    security: reality
-    sni: sun6-22.userapi.com
-    pbk: XX21xslnJqI9QkSTDAdMihXSIioiin7epvDyk5dHfSc
-
-  - name: "Latvia - WhiteList - MegaFon T2 Yota"
-    type: vless
-    server: 84.201.161.178
-    port: 4249
-    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    flow: xtls-rprx-vision
-    network: tcp
-    security: reality
-    sni: sun6-22.userapi.com
-    pbk: koPEXma6Cn65z3Rka3DCtp-UPwmAFFs9Wii9M4ewxBI
-
-  - name: "Finland - WhiteList - MegaFon T2 Yota"
-    type: vless
-    server: 84.201.152.123
-    port: 4249
-    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    flow: xtls-rprx-vision
-    network: tcp
-    security: reality
-    sni: sun6-22.userapi.com
-    pbk: sA93Ub5d31cCACIRquDxh5ckimoj6yaNhaWJco2FElc
-
-  - name: "Russia - WhiteList 1"
-    type: vless
-    server: 51.250.75.27
-    port: 443
-    uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
-    flow: xtls-rprx-vision
-    network: tcp
-    security: reality
-    sni: eh.vk.com
-    pbk: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-
-  - name: "Russia - WhiteList 2"
-    type: vless
-    server: 84.201.162.104
-    port: 443
-    uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
-    flow: xtls-rprx-vision
-    network: tcp
-    security: reality
-    sni: sun6-21.userapi.com
-    pbk: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-
-  - name: "Russia - WhiteList MTS Beeline"
-    type: vless
-    server: 51.250.20.121
-    port: 443
-    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    flow: xtls-rprx-vision
-    network: tcp
-    security: reality
-    sni: eh.vk.com
-    pbk: bYPDMM7Z7s3brAUozWIqspE24dQwgHyI60lDRZvscVo
+rules:
+  - MATCH,🚀 Proxy
