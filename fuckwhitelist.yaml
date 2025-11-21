@@ -92,7 +92,7 @@ proxies:
     skip-cert-verify: false
     sni: eh.vk.com
 
-  - name: "🇷🇺 Russia - WhiteList"
+  - name: "🇷🇺 Russia ALT - WhiteList"
     type: vless
     server: 84.201.162.104
     port: 443
@@ -114,3 +114,4 @@ proxies:
     skip-cert-verify: false
 
     sni: eh.vk.com
+
