@@ -1,3 +1,37 @@
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    proxies:
+      - "Austria - 100 Gb"
+      - "Japanese - 100 Gb"
+      - "Europa - 100 Gb - Whitelist"
+      - "Germany - WhiteList"
+      - "Germany ALT - WhiteList"
+      - "Latvia - WhiteList - MegaFon T2 Yota"
+      - "Finland - WhiteList - MegaFon T2 Yota"
+      - "Russia - WhiteList 1"
+      - "Russia - WhiteList 2"
+      - "Russia - WhiteList MTS Beeline"
+
+  - name: "Auto-Test"
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - "Austria - 100 Gb"
+      - "Japanese - 100 Gb"
+      - "Europa - 100 Gb - Whitelist"
+      - "Germany - WhiteList"
+      - "Germany ALT - WhiteList"
+      - "Latvia - WhiteList - MegaFon T2 Yota"
+      - "Finland - WhiteList - MegaFon T2 Yota"
+      - "Russia - WhiteList 1"
+      - "Russia - WhiteList 2"
+      - "Russia - WhiteList MTS Beeline"
+
+rules:
+  - 'MATCH,PROXY'
+
 proxies:
   - name: "Austria - 100 Gb"
     type: vless
@@ -5,7 +39,6 @@ proxies:
     port: 443
     uuid: 3e21d5fa-cdb4-4a7c-946d-a714662fb9f1
     flow: xtls-rprx-vision
-    encryption: none
     network: tcp
     security: reality
     sni: au.goyit.com
@@ -17,7 +50,6 @@ proxies:
     port: 443
     uuid: 3e21d5fa-cdb4-4a7c-946d-a714662fb9f1
     flow: xtls-rprx-vision
-    encryption: none
     network: tcp
     security: reality
     sni: jp.goyit.com
@@ -29,7 +61,6 @@ proxies:
     port: 443
     uuid: 3e21d5fa-cdb4-4a7c-946d-a714662fb9f1
     flow: xtls-rprx-vision
-    encryption: none
     network: tcp
     security: reality
     sni: sun6-22.userapi.com
@@ -41,7 +72,6 @@ proxies:
     port: 4249
     uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
     flow: xtls-rprx-vision
-    encryption: none
     network: tcp
     security: reality
     sni: eh.vk.com
@@ -53,7 +83,6 @@ proxies:
     port: 4249
     uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
     flow: xtls-rprx-vision
-    encryption: none
     network: tcp
     security: reality
     sni: sun6-22.userapi.com
@@ -65,7 +94,6 @@ proxies:
     port: 4249
     uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
     flow: xtls-rprx-vision
-    encryption: none
     network: tcp
     security: reality
     sni: sun6-22.userapi.com
@@ -77,7 +105,6 @@ proxies:
     port: 4249
     uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
     flow: xtls-rprx-vision
-    encryption: none
     network: tcp
     security: reality
     sni: sun6-22.userapi.com
@@ -89,7 +116,6 @@ proxies:
     port: 443
     uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
     flow: xtls-rprx-vision
-    encryption: none
     network: tcp
     security: reality
     sni: eh.vk.com
@@ -101,7 +127,6 @@ proxies:
     port: 443
     uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
     flow: xtls-rprx-vision
-    encryption: none
     network: tcp
     security: reality
     sni: sun6-21.userapi.com
@@ -113,7 +138,6 @@ proxies:
     port: 443
     uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
     flow: xtls-rprx-vision
-    encryption: none
     network: tcp
     security: reality
     sni: eh.vk.com
