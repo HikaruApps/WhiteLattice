@@ -1,147 +1,82 @@
 # Clash Configuration
-# Generated: 21.11.2025, 23:36:23
-# Proxies: 10
+# Generated: 22.11.2025, 01:16:55
+# Proxies: 5
 
 proxies:
   - {
-        "name": "🇦🇹Austria - 100 Gb",
+        "name": "🇫🇮Finland - WhiteList - Beeline",
         "type": "vless",
-        "server": "au.goyit.com",
-        "port": 443,
-        "uuid": "3e21d5fa-cdb4-4a7c-946d-a714662fb9f1",
-        "udp": true,
-        "tls": true,
-        "servername": "au.goyit.com",
-        "network": "tcp"
-    }
-  - {
-        "name": "🇯🇵Japanese - 100 Gb",
-        "type": "vless",
-        "server": "jp.goyit.com",
-        "port": 443,
-        "uuid": "3e21d5fa-cdb4-4a7c-946d-a714662fb9f1",
-        "udp": true,
-        "tls": true,
-        "servername": "jp.goyit.com",
-        "network": "tcp"
-    }
-  - {
-        "name": "🇪🇺Europa - 100 Gb - Whitelist",
-        "type": "vless",
-        "server": "152.53.149.165",
-        "port": 443,
-        "uuid": "3e21d5fa-cdb4-4a7c-946d-a714662fb9f1",
-        "udp": true,
-        "tls": true,
-        "servername": "sun6-22.userapi.com",
-        "network": "tcp"
-    }
-  - {
-        "name": "🇩🇪Germany - WhiteList",
-        "type": "vless",
-        "server": "178.154.201.52",
-        "port": 4249,
-        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
-        "udp": true,
-        "tls": true,
-        "servername": "eh.vk.com",
-        "network": "tcp"
-    }
-  - {
-        "name": "🇩🇪 Germany ALT - WhiteList",
-        "type": "vless",
-        "server": "178.154.201.52",
-        "port": 4249,
-        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
-        "udp": true,
-        "tls": true,
-        "servername": "sun6-22.userapi.com",
-        "network": "tcp"
-    }
-  - {
-        "name": "🇱🇻Latvia - WhiteList - MegaFon | T2 | Yota",
-        "type": "vless",
-        "server": "84.201.161.178",
-        "port": 4249,
-        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
-        "udp": true,
-        "tls": true,
-        "servername": "sun6-22.userapi.com",
-        "network": "tcp"
-    }
-  - {
-        "name": "🇫🇮Finland - WhiteList - MegaFon | T2 | Yota",
-        "type": "vless",
-        "server": "84.201.152.123",
-        "port": 4249,
-        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
-        "udp": true,
-        "tls": true,
-        "servername": "sun6-22.userapi.com",
-        "network": "tcp"
-    }
-  - {
-        "name": "🇷🇺Russia - WhiteList",
-        "type": "vless",
-        "server": "51.250.75.27",
-        "port": 443,
-        "uuid": "00f02ab2-6f2d-449f-a089-d182a2fac59a",
-        "udp": true,
-        "tls": true,
-        "servername": "eh.vk.com",
-        "network": "tcp"
-    }
-  - {
-        "name": "🇷🇺Russia - WhiteList [2]",
-        "type": "vless",
-        "server": "84.201.162.104",
-        "port": 443,
-        "uuid": "00f02ab2-6f2d-449f-a089-d182a2fac59a",
-        "udp": true,
-        "tls": true,
-        "servername": "sun6-21.userapi.com",
-        "network": "tcp"
-    }
-  - {
-        "name": "🇷🇺Russia - WhiteList - MTS | Beeline",
-        "type": "vless",
-        "server": "51.250.20.121",
+        "server": "185.40.155.13",
         "port": 443,
         "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
         "udp": true,
         "tls": true,
-        "servername": "eh.vk.com",
-        "network": "tcp"
+        "servername": "api.fastload.site",
+        "network": "xhttp"
+    }
+  - {
+        "name": "🇫🇮Finland - WhiteList - Beeline [2]",
+        "type": "vless",
+        "server": "194.67.192.10",
+        "port": 443,
+        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
+        "udp": true,
+        "tls": true,
+        "servername": "api.fastload.site",
+        "network": "xhttp"
+    }
+  - {
+        "name": "🇳🇱 Netherlands - WhiteList - Beeline",
+        "type": "vless",
+        "server": "api.furypay.ru",
+        "port": 443,
+        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
+        "udp": true,
+        "tls": true,
+        "servername": "api.furypay.ru",
+        "network": "xhttp"
+    }
+  - {
+        "name": "🇳🇱 Netherlands - WhiteList - Beeline [2]",
+        "type": "vless",
+        "server": "85.209.69.13",
+        "port": 443,
+        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
+        "udp": true,
+        "tls": true,
+        "servername": "api.furypay.ru",
+        "network": "xhttp"
+    }
+  - {
+        "name": "🇸🇪 Sweden - WhiteList - Beeline | MegaFon",
+        "type": "vless",
+        "server": "gretwo.dnsttlocate.ru",
+        "port": 443,
+        "uuid": "b938bdf6-c9c6-47b5-b5f3-e5f04854731c",
+        "udp": true,
+        "tls": true,
+        "servername": "gretwo.dnsttlocate.ru",
+        "network": "xhttp"
     }
 
 proxy-groups:
   - name: "🚀 Proxy"
     type: select
     proxies:
-      - "🇦🇹Austria - 100 Gb"
-      - "🇯🇵Japanese - 100 Gb"
-      - "🇪🇺Europa - 100 Gb - Whitelist"
-      - "🇩🇪Germany - WhiteList"
-      - "🇩🇪 Germany ALT - WhiteList"
-      - "🇱🇻Latvia - WhiteList - MegaFon | T2 | Yota"
-      - "🇫🇮Finland - WhiteList - MegaFon | T2 | Yota"
-      - "🇷🇺Russia - WhiteList"
-      - "🇷🇺Russia - WhiteList [2]"
-      - "🇷🇺Russia - WhiteList - MTS | Beeline"
+      - "🇫🇮Finland - WhiteList - Beeline"
+      - "🇫🇮Finland - WhiteList - Beeline [2]"
+      - "🇳🇱 Netherlands - WhiteList - Beeline"
+      - "🇳🇱 Netherlands - WhiteList - Beeline [2]"
+      - "🇸🇪 Sweden - WhiteList - Beeline | MegaFon"
 
   - name: "♻️ Auto"
     type: url-test
     proxies:
-      - "🇦🇹Austria - 100 Gb"
-      - "🇯🇵Japanese - 100 Gb"
-      - "🇪🇺Europa - 100 Gb - Whitelist"
-      - "🇩🇪Germany - WhiteList"
-      - "🇩🇪 Germany ALT - WhiteList"
-      - "🇱🇻Latvia - WhiteList - MegaFon | T2 | Yota"
-      - "🇫🇮Finland - WhiteList - MegaFon | T2 | Yota"
-      - "🇷🇺Russia - WhiteList"
-      - "🇷🇺Russia - WhiteList [2]"
-      - "🇷🇺Russia - WhiteList - MTS | Beeline"
+      - "🇫🇮Finland - WhiteList - Beeline"
+      - "🇫🇮Finland - WhiteList - Beeline [2]"
+      - "🇳🇱 Netherlands - WhiteList - Beeline"
+      - "🇳🇱 Netherlands - WhiteList - Beeline [2]"
+      - "🇸🇪 Sweden - WhiteList - Beeline | MegaFon"
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
