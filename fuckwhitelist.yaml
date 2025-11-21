@@ -1,5 +1,5 @@
 # Clash Configuration
-# Generated: 21.11.2025, 23:29:07
+# Generated: 21.11.2025, 23:36:23
 # Proxies: 10
 
 proxies:
@@ -92,7 +92,7 @@ proxies:
         "network": "tcp"
     }
   - {
-        "name": "🇷🇺Russia - WhiteList",
+        "name": "🇷🇺Russia - WhiteList [2]",
         "type": "vless",
         "server": "84.201.162.104",
         "port": 443,
@@ -126,7 +126,7 @@ proxy-groups:
       - "🇱🇻Latvia - WhiteList - MegaFon | T2 | Yota"
       - "🇫🇮Finland - WhiteList - MegaFon | T2 | Yota"
       - "🇷🇺Russia - WhiteList"
-      - "🇷🇺Russia - WhiteList"
+      - "🇷🇺Russia - WhiteList [2]"
       - "🇷🇺Russia - WhiteList - MTS | Beeline"
 
   - name: "♻️ Auto"
@@ -140,7 +140,7 @@ proxy-groups:
       - "🇱🇻Latvia - WhiteList - MegaFon | T2 | Yota"
       - "🇫🇮Finland - WhiteList - MegaFon | T2 | Yota"
       - "🇷🇺Russia - WhiteList"
-      - "🇷🇺Russia - WhiteList"
+      - "🇷🇺Russia - WhiteList [2]"
       - "🇷🇺Russia - WhiteList - MTS | Beeline"
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
