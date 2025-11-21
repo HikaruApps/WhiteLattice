@@ -8,12 +8,13 @@ proxies:
     server: 185.40.155.13
     port: 443
     uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    udp: true
     tls: true
+    network: xhttp
+    udp: true
     servername: api.fastload.site
-    network: http
     http-opts:
-      path: "/"
+      path:
+        - "/"
       host:
         - "api.fastload.site"
 
@@ -22,12 +23,13 @@ proxies:
     server: 194.67.192.10
     port: 443
     uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    udp: true
     tls: true
+    network: xhttp
+    udp: true
     servername: api.fastload.site
-    network: http
     http-opts:
-      path: "/"
+      path:
+        - "/"
       host:
         - "api.fastload.site"
 
@@ -36,12 +38,13 @@ proxies:
     server: api.furypay.ru
     port: 443
     uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    udp: true
     tls: true
+    network: xhttp
+    udp: true
     servername: api.furypay.ru
-    network: http
     http-opts:
-      path: "/"
+      path:
+        - "/"
       host:
         - "api.furypay.ru"
 
@@ -50,12 +53,13 @@ proxies:
     server: 85.209.69.13
     port: 443
     uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    udp: true
     tls: true
+    network: xhttp
+    udp: true
     servername: api.furypay.ru
-    network: http
     http-opts:
-      path: "/"
+      path:
+        - "/"
       host:
         - "api.furypay.ru"
 
@@ -64,14 +68,15 @@ proxies:
     server: gretwo.dnsttlocate.ru
     port: 443
     uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    udp: true
     tls: true
+    network: xhttp
+    udp: true
     servername: gretwo.dnsttlocate.ru
-    network: http
     http-opts:
-      path: "/"
+      path:
+        - "/"
       host:
-        - "gretwo.dnsttlocate.ru"
+        - gretwo.dnsttlocate.ru
 
 proxy-groups:
   - name: "🚀 Proxy"
