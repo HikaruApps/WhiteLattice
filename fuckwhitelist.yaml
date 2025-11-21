@@ -1,7 +1,7 @@
 # VPN подписка для Happ / V2RayTun
 name: My VPN Subscription
 type: http
-url: "https://raw.githubusercontent.com/yourusername/yourrepo/main/Subscription.yaml"
+url: "https://raw.githubusercontent.com/HikaruApps/WhiteLattice/refs/heads/main/fuckwhitelist.yaml"
 interval: 300
 proxies:
   - name: "🇦🇹 Austria - 100 Gb"
@@ -112,4 +112,5 @@ proxies:
     network: tcp
     tls: true
     skip-cert-verify: false
+
     sni: eh.vk.com
