@@ -1,0 +1,115 @@
+# VPN подписка для Happ / V2RayTun
+name: My VPN Subscription
+type: http
+url: "https://raw.githubusercontent.com/yourusername/yourrepo/main/Subscription.yaml"
+interval: 300
+proxies:
+  - name: "🇦🇹 Austria - 100 Gb"
+    type: vless
+    server: au.goyit.com
+    port: 443
+    uuid: 3e21d5fa-cdb4-4a7c-946d-a714662fb9f1
+    flow: xtls-rprx-vision
+    network: tcp
+    tls: true
+    skip-cert-verify: false
+    sni: au.goyit.com
+
+  - name: "🇯🇵 Japanese - 100 Gb"
+    type: vless
+    server: jp.goyit.com
+    port: 443
+    uuid: 3e21d5fa-cdb4-4a7c-946d-a714662fb9f1
+    flow: xtls-rprx-vision
+    network: tcp
+    tls: true
+    skip-cert-verify: false
+    sni: jp.goyit.com
+
+  - name: "🇪🇺 Europa - 100 Gb - Whitelist"
+    type: vless
+    server: 152.53.149.165
+    port: 443
+    uuid: 3e21d5fa-cdb4-4a7c-946d-a714662fb9f1
+    flow: xtls-rprx-vision
+    network: tcp
+    tls: true
+    skip-cert-verify: false
+    sni: sun6-22.userapi.com
+
+  - name: "🇩🇪 Germany - WhiteList"
+    type: vless
+    server: 178.154.201.52
+    port: 4249
+    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
+    flow: xtls-rprx-vision
+    network: tcp
+    tls: true
+    skip-cert-verify: false
+    sni: eh.vk.com
+
+  - name: "🇩🇪 Germany ALT - WhiteList"
+    type: vless
+    server: 178.154.201.52
+    port: 4249
+    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
+    flow: xtls-rprx-vision
+    network: tcp
+    tls: true
+    skip-cert-verify: false
+    sni: sun6-22.userapi.com
+
+  - name: "🇱🇻 Latvia - WhiteList - MegaFon | T2 | Yota"
+    type: vless
+    server: 84.201.161.178
+    port: 4249
+    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
+    flow: xtls-rprx-vision
+    network: tcp
+    tls: true
+    skip-cert-verify: false
+    sni: sun6-22.userapi.com
+
+  - name: "🇫🇮 Finland - WhiteList - MegaFon | T2 | Yota"
+    type: vless
+    server: 84.201.152.123
+    port: 4249
+    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
+    flow: xtls-rprx-vision
+    network: tcp
+    tls: true
+    skip-cert-verify: false
+    sni: sun6-22.userapi.com
+
+  - name: "🇷🇺 Russia - WhiteList"
+    type: vless
+    server: 51.250.75.27
+    port: 443
+    uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
+    flow: xtls-rprx-vision
+    network: tcp
+    tls: true
+    skip-cert-verify: false
+    sni: eh.vk.com
+
+  - name: "🇷🇺 Russia - WhiteList"
+    type: vless
+    server: 84.201.162.104
+    port: 443
+    uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
+    flow: xtls-rprx-vision
+    network: tcp
+    tls: true
+    skip-cert-verify: false
+    sni: sun6-21.userapi.com
+
+  - name: "🇷🇺 Russia - WhiteList - MTS | Beeline"
+    type: vless
+    server: 51.250.20.121
+    port: 443
+    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
+    flow: xtls-rprx-vision
+    network: tcp
+    tls: true
+    skip-cert-verify: false
+    sni: eh.vk.com
