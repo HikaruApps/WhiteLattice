@@ -81,17 +81,6 @@ proxies:
     skip-cert-verify: false
     sni: sun6-22.userapi.com
 
-  - name: "🇷🇺 Russia - WhiteList"
-    type: vless
-    server: 51.250.75.27
-    port: 443
-    uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
-    flow: xtls-rprx-vision
-    network: tcp
-    tls: true
-    skip-cert-verify: false
-    sni: eh.vk.com
-
   - name: "🇷🇺 Russia ALT - WhiteList"
     type: vless
     server: 84.201.162.104
@@ -112,6 +101,6 @@ proxies:
     network: tcp
     tls: true
     skip-cert-verify: false
-
     sni: eh.vk.com
+
 
