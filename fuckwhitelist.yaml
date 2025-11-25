@@ -71,7 +71,7 @@ proxy-groups:
     type: url-test
     proxies:
       - "🇯🇵 Japan"
-      - "🔒 96@oneclickvpnkeys"
+      - "🇺🇸 USA"
       - "🇧🇷 Brazil"
       - "🇨🇦 Canada"
       - "🇦🇪 UAE"
@@ -81,3 +81,4 @@ proxy-groups:
 
 rules:
   - MATCH,🚀 Proxy
+
