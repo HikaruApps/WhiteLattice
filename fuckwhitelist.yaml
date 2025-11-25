@@ -57,7 +57,7 @@ proxies:
     network: tcp
 
 proxy-groups:
-  - name: "🚀 VPN"
+  - name: "🚀 Proxy"
     type: select
     proxies:
       - "🇯🇵 Japan"
@@ -81,6 +81,7 @@ proxy-groups:
 
 rules:
   - MATCH,🚀 VPN
+
 
 
 
