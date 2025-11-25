@@ -1,101 +1,81 @@
-# Clash Configuration
-# Generated: 22.11.2025
-# Proxies: 5
-
 proxies:
-  - name: "🇫🇮Finland - WhiteList - Beeline"
-    type: vless
-    server: 185.40.155.13
+  - name: "🇯🇵 Japan"
+    type: ss
+    server: 103.75.118.125
     port: 443
-    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    tls: true
-    network: xhttp
+    cipher: chacha20-ietf-poly1305
+    password: "XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh"
     udp: true
-    servername: api.fastload.site
-    http-opts:
-      path:
-        - "/"
-      host:
-        - "api.fastload.site"
 
-  - name: "🇫🇮Finland - WhiteList - Beeline [2]"
-    type: vless
-    server: 194.67.192.10
+  - name: "🇺🇸 USA"
+    type: ss
+    server: 23.95.72.81
     port: 443
-    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    tls: true
-    network: xhttp
+    cipher: chacha20-ietf-poly1305
+    password: "UAMVtHm54uahd6SiN5WcD16rsPSdabPG"
     udp: true
-    servername: api.fastload.site
-    http-opts:
-      path:
-        - "/"
-      host:
-        - "api.fastload.site"
 
-  - name: "🇳🇱Netherlands - WhiteList - Beeline"
-    type: vless
-    server: api.furypay.ru
+  - name: "🇧🇷 Brazil"
+    type: ss
+    server: 213.159.66.206
     port: 443
-    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    tls: true
-    network: xhttp
+    cipher: chacha20-ietf-poly1305
+    password: "pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu"
     udp: true
-    servername: api.furypay.ru
-    http-opts:
-      path:
-        - "/"
-      host:
-        - "api.furypay.ru"
 
-  - name: "🇳🇱Netherlands - WhiteList - Beeline [2]"
+  - name: "🇨🇦 Canada"
     type: vless
-    server: 85.209.69.13
-    port: 443
-    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
+    server: 86.107.168.100
+    port: 7070
+    uuid: be32c9ad-92e1-485b-dc74-2a65e9dae480
+    cipher: none
     tls: true
-    network: xhttp
     udp: true
-    servername: api.furypay.ru
-    http-opts:
-      path:
-        - "/"
-      host:
-        - "api.furypay.ru"
+    skip-cert-verify: false
+    servername: src.smnsoft.com
+    network: tcp
+    client-fingerprint: chrome
 
-  - name: "🇸🇪Sweden - WhiteList - Beeline | MegaFon"
-    type: vless
-    server: gretwo.dnsttlocate.ru
+  - name: "🇦🇪 UAE"
+    type: ss
+    server: 95.174.68.33
     port: 443
-    uuid: b938bdf6-c9c6-47b5-b5f3-e5f04854731c
-    tls: true
-    network: xhttp
+    cipher: chacha20-ietf-poly1305
+    password: "YzH4id7ZEyKpfy39F2YcOmzCsBlkGwh8"
     udp: true
-    servername: gretwo.dnsttlocate.ru
-    http-opts:
-      path:
-        - "/"
-      host:
-        - gretwo.dnsttlocate.ru
+
+  - name: "🇩🇪 Germany"
+    type: vless
+    server: entry-2.nexchat.one
+    port: 443
+    uuid: 6aa60862-cd63-4e15-b0ef-ec3c3a91fa8b
+    cipher: none
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    servername: entry-2.nexchat.one
+    network: tcp
 
 proxy-groups:
   - name: "🚀 Proxy"
     type: select
     proxies:
-      - "🇫🇮Finland - WhiteList - Beeline"
-      - "🇫🇮Finland - WhiteList - Beeline [2]"
-      - "🇳🇱Netherlands - WhiteList - Beeline"
-      - "🇳🇱Netherlands - WhiteList - Beeline [2]"
-      - "🇸🇪Sweden - WhiteList - Beeline | MegaFon"
+      - "🇯🇵 Japan"
+      - "🔒 96@oneclickvpnkeys"
+      - "🇧🇷 Brazil"
+      - "🇨🇦 Canada"
+      - "🇦🇪 UAE"
+      - "🇩🇪 Germany"
 
-  - name: "♻️ Auto"
+  - name: "🌍 Auto"
     type: url-test
     proxies:
-      - "🇫🇮Finland - WhiteList - Beeline"
-      - "🇫🇮Finland - WhiteList - Beeline [2]"
-      - "🇳🇱Netherlands - WhiteList - Beeline"
-      - "🇳🇱Netherlands - WhiteList - Beeline [2]"
-      - "🇸🇪Sweden - WhiteList - Beeline | MegaFon"
+      - "🇯🇵 Japan"
+      - "🔒 96@oneclickvpnkeys"
+      - "🇧🇷 Brazil"
+      - "🇨🇦 Canada"
+      - "🇦🇪 UAE"
+      - "🇩🇪 Germany"
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
