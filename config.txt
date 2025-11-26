@@ -1,3 +1,4 @@
+#profile-update-interval: 1
 vless://9f2496ec-4b73-436c-adb9-1d025ff76fd8@51.250.36.103:443?security=reality&encryption=none&pbk=2hPHtxkcJuPUFWEaN9RvX0zGpmWSYt1FSn3582hUg0s&headerType=none&fp=chrome&spx=%2F&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=eh.vk.com&sid=21c213621719c7a5#🇫🇮Finland - WhiteList - 50/50Gb🔴
 vless://9f2496ec-4b73-436c-adb9-1d025ff76fd8@51.250.36.103:443?security=reality&encryption=none&pbk=2hPHtxkcJuPUFWEaN9RvX0zGpmWSYt1FSn3582hUg0s&headerType=none&fp=chrome&spx=%2F&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=mts.ru&sid=13d43a05c3d32f2d#🇫🇮Finland - WhiteList - 50/50Gb🔴
 vless://174711d0-e091-41fa-9ce8-4fe071d7a779@84.201.146.173:443?security=reality&encryption=none&pbk=k1CzsYIcj4YL4KMCJR8bqaUBJNKyBujJDQIwtChTumM&headerType=none&fp=chrome&spx=%2F&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=st.vk.com&sid=7654b30b68e94758#🇳🇱 Netherlands - WhiteList - 9.9/50Gb
