@@ -3,7 +3,7 @@
 #subscription-userinfo: upload=0; download=0; total=109951162777600; expire=1893456000
 #support-url: https://t.me/ShadowVpnSupport_bot
 #profile-web-page-url: https://t.me/ShadowVpn_net
-#announce: base64:0JLRgdC1INC60L7QvdGE0LjQs9GD0YDQsNGG0LjQuCDQsiDQv9C+0LTQv9C40YHQv9C+0LzQuNGC0Ywg0LrQsNC6INC00L7QsdC+0YjQuNC90YHRgtCy0L7QtSDihJY=
+#announce: Все конфигурации в подписке собраны из открытых источников, используйте их если у вас действуют белые списки❄️
 vless://4a6de183-2ad3-456c-b420-feeac81f6257@51.250.106.20:4249?mode=gun&security=reality&encryption=none&authority=&pbk=FCg2XiFJrpH-2XlELSSSyEC7zkeW29HOgp4rfrqXEAI&fp=chrome&allowinsecure=0&type=grpc&serviceName=xyz&sni=cloudflare.com&sid=123abc#💎🇳🇱 Netherlands - WhiteList - MTS | T2 | BeeLine | YOTA
 vless://93cd7e0f-8a81-4076-be8b-6d3bf3f8f810@152.53.84.101:20579?security=reality&encryption=none&pbk=mT6lh-gtbEuWk3Zk6XGF_hYvpLwxTyvwtH7F-_fRbxI&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=ilovepdf.com&sid=89f1da93#🇦🇹Austria - WhiteList
 vless://a5394554-6677-4922-b203-a539be9411c3@152.53.132.153:13718?security=reality&encryption=none&pbk=RE5pTjMWTYxFQvDtxxKOCZCnnyYbR2a25zlLnYXWOVw&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=eightsleep.com&sid=96#🇦🇹Austria - WhiteList
