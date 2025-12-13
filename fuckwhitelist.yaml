@@ -480,10 +480,7 @@ proxy-groups:
       - 🇨🇦 Canada
 
   - name: 🇳🇱 Netherlands
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     proxies:
       - 🇳🇱Netherlands⚡️👑
       - 🇳🇱Netherlands | XHTTP |⚡️🌀
@@ -493,55 +490,37 @@ proxy-groups:
       - 🇳🇱Netherlands | WL | MTS
 
   - name: 🇪🇺 Europe
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     proxies:
       - 🇪🇺Europe | WL
       - 🇪🇺Europe | WL | ⚡️
 
   - name: 🇵🇱 Poland
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     proxies:
       - 🇵🇱Poland | WL [id: wq9]
       - 🇵🇱Poland Alt | WL [id: e19]
 
   - name: 🇭🇺 Hungary
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     proxies:
       - 🇭🇺 Hungary | WL [id: w9m]
       - 🇭🇺 Hungary Alt | WL [id: 27i]
 
   - name: 🇪🇸 Spain
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     proxies:
       - 🇪🇸Spain | WL [id: 20l]
       - 🇪🇸Spain Alt | WL [id: 9jq]
 
   - name: 🇹🇷 Turkey
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     proxies:
       - 🇹🇷Turkey | WL [id: hf8]
       - 🇹🇷Turkey Alt | WL [id: n8p]
 
   - name: 🇷🇺 Russia
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: select
     proxies:
       - 🇷🇺Russia | WL | MegaFon
       - 🇷🇺Russia | WL 3
@@ -590,6 +569,7 @@ rules:
   - GEOIP,CN,DIRECT
   - GEOIP,RU,DIRECT
   - MATCH,🚀 Proxy
+
 
 
 
