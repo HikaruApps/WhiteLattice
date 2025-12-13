@@ -26,7 +26,7 @@ dns:
     - https://dns.google/dns-query
 
 proxies:
-  - name: "NL-1"
+  - name: "🇳🇱Netherlands⚡️👑"
     type: vless
     server: midorinote.ru
     port: 8443
@@ -41,7 +41,7 @@ proxies:
       short-id: 387d2fb5f83c0cde
     client-fingerprint: random
 
-  - name: "NL-2"
+  - name: "🇳🇱Netherlands 2"
     type: vless
     server: nl01-vlr01.tcp-reset-club.net
     port: 443
@@ -56,7 +56,7 @@ proxies:
       short-id: 48720c
     client-fingerprint: chrome
 
-  - name: "NL-3"
+  - name: "🇳🇱Netherlands SS"
     type: ss
     server: 45.158.171.70
     port: 8080
@@ -64,7 +64,7 @@ proxies:
     password: oZIoA69Q8yhcQV8ka3Pa3A
     udp: true
 
-  - name: "NL-4"
+  - name: "🇳🇱Netherlands GMN"
     type: vless
     server: nl01-gmn02-vlr01.tcp-reset-club.net
     port: 443
@@ -79,7 +79,7 @@ proxies:
       short-id: 8453e5fd9af927
     client-fingerprint: chrome
 
-  - name: "EU-1"
+  - name: "🇪🇺Europe WL"
     type: vless
     server: 78.159.247.79
     port: 443
@@ -94,7 +94,7 @@ proxies:
       short-id: ef
     client-fingerprint: chrome
 
-  - name: "EU-2"
+  - name: "🇪🇺Europe WL 2"
     type: vless
     server: 217.16.24.53
     port: 443
@@ -109,7 +109,7 @@ proxies:
       short-id: 69f3807321
     client-fingerprint: chrome
 
-  - name: "NL-WS"
+  - name: "🇳🇱Netherlands WS"
     type: vless
     server: nl-78w-c.southnetworks.cloud
     port: 80
@@ -120,7 +120,7 @@ proxies:
     ws-opts:
       path: /getWorkerUpdates
 
-  - name: "NL-MTS"
+  - name: "🇳🇱Netherlands MTS"
     type: vless
     server: 51.250.106.20
     port: 4249
@@ -134,7 +134,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     client-fingerprint: chrome
 
-  - name: "PL-1"
+  - name: "🇵🇱Poland WL"
     type: vless
     server: 89.208.87.173
     port: 8443
@@ -149,7 +149,7 @@ proxies:
       short-id: 887c0d72e771a934
     client-fingerprint: random
 
-  - name: "PL-2"
+  - name: "🇵🇱Poland Alt"
     type: vless
     server: 158.160.201.80
     port: 443
@@ -164,7 +164,7 @@ proxies:
       short-id: 1929ef620e9b34f5
     client-fingerprint: chrome
 
-  - name: "HU-1"
+  - name: "🇭🇺Hungary WL"
     type: vless
     server: 158.160.202.13
     port: 8443
@@ -179,7 +179,7 @@ proxies:
       short-id: 8ba12e75110b7a9c
     client-fingerprint: random
 
-  - name: "HU-2"
+  - name: "🇭🇺Hungary Alt"
     type: vless
     server: 83.166.236.32
     port: 8443
@@ -194,7 +194,7 @@ proxies:
       short-id: 8ba12e75110b7a9c
     client-fingerprint: random
 
-  - name: "ES-1"
+  - name: "🇪🇸Spain WL"
     type: vless
     server: 158.160.196.107
     port: 443
@@ -209,7 +209,7 @@ proxies:
       short-id: 48fccabc158a4c22
     client-fingerprint: chrome
 
-  - name: "ES-2"
+  - name: "🇪🇸Spain Alt"
     type: vless
     server: 90.156.150.229
     port: 8443
@@ -224,7 +224,7 @@ proxies:
       short-id: 28047c78b3f5ee2c
     client-fingerprint: random
 
-  - name: "TR-1"
+  - name: "🇹🇷Turkey WL"
     type: vless
     server: 158.160.182.134
     port: 443
@@ -239,7 +239,7 @@ proxies:
       short-id: 205748bc0f24a747
     client-fingerprint: chrome
 
-  - name: "TR-2"
+  - name: "🇹🇷Turkey Alt"
     type: vless
     server: 212.233.95.237
     port: 443
@@ -254,7 +254,7 @@ proxies:
       short-id: 205748bc0f24a747
     client-fingerprint: chrome
 
-  - name: "RU-1"
+  - name: "🇷🇺Russia MegaFon"
     type: vless
     server: 51.250.21.113
     port: 7443
@@ -269,7 +269,7 @@ proxies:
       short-id: a20d3ed244c76426
     client-fingerprint: qq
 
-  - name: "RU-2"
+  - name: "🇷🇺Russia WL 1"
     type: vless
     server: 51.250.28.39
     port: 4248
@@ -283,7 +283,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     client-fingerprint: qq
 
-  - name: "RU-3"
+  - name: "🇷🇺Russia WL 2"
     type: vless
     server: 51.250.106.64
     port: 4248
@@ -297,7 +297,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     client-fingerprint: qq
 
-  - name: "RU-4"
+  - name: "🇷🇺Russia WL 3"
     type: vless
     server: 217.16.26.172
     port: 1080
@@ -312,7 +312,7 @@ proxies:
       short-id: "4326"
     client-fingerprint: qq
 
-  - name: "RU-5"
+  - name: "🇷🇺Russia WL 4"
     type: vless
     server: 217.16.26.52
     port: 443
@@ -327,7 +327,7 @@ proxies:
       short-id: 43dcff53849b81e6
     client-fingerprint: qq
 
-  - name: "RU-6"
+  - name: "🇷🇺Russia WL 5"
     type: vless
     server: 217.16.23.11
     port: 443
@@ -342,7 +342,7 @@ proxies:
       short-id: 43dcff53849b81e6
     client-fingerprint: qq
 
-  - name: "RU-gRPC-1"
+  - name: "🇷🇺Russia gRPC 1"
     type: vless
     server: 51.250.106.64
     port: 443
@@ -358,7 +358,7 @@ proxies:
       grpc-service-name: xyz
     client-fingerprint: chrome
 
-  - name: "RU-gRPC-2"
+  - name: "🇷🇺Russia gRPC 2"
     type: vless
     server: 51.250.28.39
     port: 443
@@ -374,7 +374,7 @@ proxies:
       grpc-service-name: xyz
     client-fingerprint: chrome
 
-  - name: "RU-7"
+  - name: "🇷🇺Russia WL 6"
     type: vless
     server: 84.201.132.223
     port: 443
@@ -389,7 +389,7 @@ proxies:
       short-id: 43dcff53849b81e6
     client-fingerprint: edge
 
-  - name: "JP-1"
+  - name: "🇯🇵Japan"
     type: ss
     server: 103.75.118.125
     port: 443
@@ -397,7 +397,7 @@ proxies:
     password: "XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh"
     udp: true
 
-  - name: "US-1"
+  - name: "🇺🇸USA"
     type: ss
     server: 23.95.72.81
     port: 443
@@ -405,7 +405,7 @@ proxies:
     password: "UAMVtHm54uahd6SiN5WcD16rsPSdabPG"
     udp: true
 
-  - name: "BR-1"
+  - name: "🇧🇷Brazil"
     type: ss
     server: 213.159.66.206
     port: 443
@@ -413,7 +413,7 @@ proxies:
     password: "pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu"
     udp: true
 
-  - name: "CA-1"
+  - name: "🇨🇦Canada"
     type: vless
     server: 86.107.168.100
     port: 7070
@@ -426,97 +426,119 @@ proxies:
     client-fingerprint: chrome
 
 proxy-groups:
-  - name: "PROXY"
+  - name: "🚀 Proxy"
     type: select
     proxies:
-      - AUTO
-      - NL-1
-      - NL-2
-      - NL-3
-      - NL-4
-      - EU-1
-      - EU-2
-      - NL-WS
-      - NL-MTS
-      - PL-1
-      - PL-2
-      - HU-1
-      - HU-2
-      - ES-1
-      - ES-2
-      - TR-1
-      - TR-2
-      - RU-1
-      - RU-2
-      - RU-3
-      - RU-4
-      - RU-5
-      - RU-6
-      - RU-gRPC-1
-      - RU-gRPC-2
-      - RU-7
-      - JP-1
-      - US-1
-      - BR-1
-      - CA-1
+      - "♻️ Auto"
+      - "📋 Whitelist"
+      - "🇳🇱Netherlands⚡️👑"
+      - "🇳🇱Netherlands | XHTTP"
+      - "🇳🇱Netherlands SS"
+      - "🇳🇱Netherlands GMN"
+      - "🇪🇺Europe WL"
+      - "🇪🇺Europe WL 2"
+      - "🇳🇱Netherlands WS"
+      - "🇳🇱Netherlands MTS"
+      - "🇵🇱Poland WL"
+      - "🇵🇱Poland Alt"
+      - "🇭🇺Hungary WL"
+      - "🇭🇺Hungary Alt"
+      - "🇪🇸Spain WL"
+      - "🇪🇸Spain Alt"
+      - "🇹🇷Turkey WL"
+      - "🇹🇷Turkey Alt"
+      - "🇷🇺Russia MegaFon"
+      - "🇷🇺Russia WL 1"
+      - "🇷🇺Russia WL 2"
+      - "🇷🇺Russia WL 3"
+      - "🇷🇺Russia WL 4"
+      - "🇷🇺Russia WL 5"
+      - "🇷🇺Russia gRPC 1"
+      - "🇷🇺Russia gRPC 2"
+      - "🇷🇺Russia WL 6"
+      - "🇯🇵Japan"
+      - "🇺🇸USA"
+      - "🇧🇷Brazil"
+      - "🇨🇦Canada"
       - DIRECT
 
-  - name: "AUTO"
+  - name: "♻️ Auto"
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - NL-1
-      - NL-2
-      - NL-3
-      - NL-4
-      - EU-1
-      - EU-2
-      - NL-WS
-      - NL-MTS
-      - PL-1
-      - PL-2
-      - HU-1
-      - HU-2
-      - ES-1
-      - ES-2
-      - TR-1
-      - TR-2
-      - RU-1
-      - RU-2
-      - RU-3
-      - RU-4
-      - RU-5
-      - RU-6
-      - RU-gRPC-1
-      - RU-gRPC-2
-      - RU-7
-      - JP-1
-      - US-1
-      - BR-1
-      - CA-1
+      - "🇳🇱Netherlands⚡️👑"
+      - "🇳🇱Netherlands | XHTTP"
+      - "🇳🇱Netherlands SS"
+      - "🇳🇱Netherlands GMN"
+      - "🇪🇺Europe WL"
+      - "🇪🇺Europe WL 2"
+      - "🇳🇱Netherlands WS"
+      - "🇳🇱Netherlands MTS"
+      - "🇵🇱Poland WL"
+      - "🇵🇱Poland Alt"
+      - "🇭🇺Hungary WL"
+      - "🇭🇺Hungary Alt"
+      - "🇪🇸Spain WL"
+      - "🇪🇸Spain Alt"
+      - "🇹🇷Turkey WL"
+      - "🇹🇷Turkey Alt"
+      - "🇷🇺Russia MegaFon"
+      - "🇷🇺Russia WL 1"
+      - "🇷🇺Russia WL 2"
+      - "🇷🇺Russia WL 3"
+      - "🇷🇺Russia WL 4"
+      - "🇷🇺Russia WL 5"
+      - "🇷🇺Russia gRPC 1"
+      - "🇷🇺Russia gRPC 2"
+      - "🇷🇺Russia WL 6"
+      - "🇯🇵Japan"
+      - "🇺🇸USA"
+      - "🇧🇷Brazil"
+      - "🇨🇦Canada"
+
+  - name: "📋 Whitelist"
+    type: select
+    proxies:
+      - "🇪🇺Europe WL"
+      - "🇪🇺Europe WL 2"
+      - "🇳🇱Netherlands MTS"
+      - "🇵🇱Poland WL"
+      - "🇵🇱Poland Alt"
+      - "🇭🇺Hungary WL"
+      - "🇭🇺Hungary Alt"
+      - "🇪🇸Spain WL"
+      - "🇪🇸Spain Alt"
+      - "🇹🇷Turkey WL"
+      - "🇹🇷Turkey Alt"
+      - "🇷🇺Russia MegaFon"
+      - "🇷🇺Russia WL 1"
+      - "🇷🇺Russia WL 2"
+      - "🇷🇺Russia WL 3"
+      - "🇷🇺Russia WL 4"
+      - "🇷🇺Russia WL 5"
+      - "🇷🇺Russia gRPC 1"
+      - "🇷🇺Russia gRPC 2"
+      - "🇷🇺Russia WL 6"
 
 rules:
-  - DOMAIN-SUFFIX,google.com,PROXY
-  - DOMAIN-SUFFIX,googleapis.com,PROXY
-  - DOMAIN-SUFFIX,youtube.com,PROXY
-  - DOMAIN-SUFFIX,ytimg.com,PROXY
-  - DOMAIN-SUFFIX,facebook.com,PROXY
-  - DOMAIN-SUFFIX,twitter.com,PROXY
-  - DOMAIN-SUFFIX,x.com,PROXY
-  - DOMAIN-SUFFIX,instagram.com,PROXY
-  - DOMAIN-SUFFIX,openai.com,PROXY
-  - DOMAIN-SUFFIX,claude.ai,PROXY
-  - DOMAIN-SUFFIX,anthropic.com,PROXY
-  - DOMAIN-SUFFIX,chatgpt.com,PROXY
-  - DOMAIN-KEYWORD,google,PROXY
+  - DOMAIN-SUFFIX,google.com,🚀 Proxy
+  - DOMAIN-SUFFIX,googleapis.com,🚀 Proxy
+  - DOMAIN-SUFFIX,youtube.com,🚀 Proxy
+  - DOMAIN-SUFFIX,ytimg.com,🚀 Proxy
+  - DOMAIN-SUFFIX,facebook.com,🚀 Proxy
+  - DOMAIN-SUFFIX,twitter.com,🚀 Proxy
+  - DOMAIN-SUFFIX,x.com,🚀 Proxy
+  - DOMAIN-SUFFIX,instagram.com,🚀 Proxy
+  - DOMAIN-SUFFIX,openai.com,🚀 Proxy
+  - DOMAIN-SUFFIX,claude.ai,🚀 Proxy
+  - DOMAIN-SUFFIX,anthropic.com,🚀 Proxy
+  - DOMAIN-SUFFIX,chatgpt.com,🚀 Proxy
+  - DOMAIN-KEYWORD,google,🚀 Proxy
   - GEOIP,CN,DIRECT
   - GEOIP,RU,DIRECT
-  - MATCH,PROXY
-
-
-
+  - MATCH,🚀 Proxy
 
 
 
