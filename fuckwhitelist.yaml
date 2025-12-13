@@ -1,85 +1,573 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
 proxies:
-  - name: "🇯🇵 Japan"
-    type: ss
-    server: 103.75.118.125
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh"
-    udp: true
-
-  - name: "🇺🇸 USA"
-    type: ss
-    server: 23.95.72.81
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "UAMVtHm54uahd6SiN5WcD16rsPSdabPG"
-    udp: true
-
-  - name: "🇧🇷 Brazil"
-    type: ss
-    server: 213.159.66.206
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu"
-    udp: true
-
-  - name: "🇨🇦 Canada"
+  - name: "🇳🇱Netherlands⚡️👑"
     type: vless
-    server: 86.107.168.100
-    port: 7070
-    uuid: be32c9ad-92e1-485b-dc74-2a65e9dae480
-    cipher: none
+    server: midorinote.ru
+    port: 8443
+    uuid: bfe45936-2b6a-497d-a497-ccba4303140d
+    network: tcp
     tls: true
     udp: true
-    skip-cert-verify: false
-    servername: src.smnsoft.com
-    network: tcp
+    flow: xtls-rprx-vision
+    servername: m.vk.com
+    reality-opts:
+      public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
+      short-id: 387d2fb5f83c0cde
+    client-fingerprint: random
+
+  - name: "🇳🇱 Netherlands | XHTTP |⚡️"
+    type: vless
+    server: nl01-ss01.tcp-reset-club.net
+    port: 443
+    uuid: 35274d58-fc5d-4ddf-81c2-65c2673dd0f9
+    network: http
+    tls: true
+    udp: true
+    servername: stats.vk-portal.net
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 8453e5fd9af927
     client-fingerprint: chrome
 
-  - name: "🇦🇪 UAE"
-    type: ss
-    server: 95.174.68.33
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: "YzH4id7ZEyKpfy39F2YcOmzCsBlkGwh8"
-    udp: true
-
-  - name: "🇩🇪 Germany"
+  - name: "🇳🇱Netherlands | XHTTP |⚡️🌀"
     type: vless
-    server: entry-2.nexchat.one
+    server: nl01-vlr01.tcp-reset-club.net
     port: 443
-    uuid: 6aa60862-cd63-4e15-b0ef-ec3c3a91fa8b
-    cipher: none
+    uuid: 35274d58-fc5d-4ddf-81c2-65c2673dd0f9
+    network: tcp
     tls: true
     udp: true
-    skip-cert-verify: false
-    servername: entry-2.nexchat.one
+    flow: xtls-rprx-vision
+    servername: hls-svod.itunes.apple.com
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 48720c
+    client-fingerprint: chrome
+
+  - name: "🇳🇱Netherlands⚡️"
+    type: ss
+    server: 45.158.171.70
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    udp: true
+
+  - name: "🇳🇱Netherlands"
+    type: vless
+    server: nl01-gmn02-vlr01.tcp-reset-club.net
+    port: 443
+    uuid: 35274d58-fc5d-4ddf-81c2-65c2673dd0f9
     network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: hls-svod.itunes.apple.com
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 8453e5fd9af927
+    client-fingerprint: chrome
+
+  - name: "🇪🇺Europe | WL"
+    type: vless
+    server: 78.159.247.79
+    port: 443
+    uuid: 02f62dd5-218f-4e9f-9c4b-f8a2e452533e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.vk.com
+    reality-opts:
+      public-key: HxjD-7OeJUtrNFsW4PEqThSs6fujV9Mkl5Z4igx21k8
+      short-id: ef
+    client-fingerprint: chrome
+
+  - name: "🇪🇺Europe | WL | ⚡️"
+    type: vless
+    server: 217.16.24.53
+    port: 443
+    uuid: 011fb39c-15ed-4700-a338-67497533f94e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.vk.com
+    reality-opts:
+      public-key: wECjZXPpzOIAcE2my_sCH2zluFB4p9a3jpTugXhJ7gI
+      short-id: 69f3807321
+    client-fingerprint: chrome
+
+  - name: "🇳🇱Netherlands | WL | Основной"
+    type: vless
+    server: nl-78w-c.southnetworks.cloud
+    port: 80
+    uuid: 094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa
+    network: ws
+    tls: false
+    udp: true
+    ws-opts:
+      path: /getWorkerUpdates
+
+  - name: "🇳🇱Netherlands | WL | MTS"
+    type: vless
+    server: 51.250.106.20
+    port: 4249
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.vk.com
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    client-fingerprint: chrome
+
+  - name: "🇵🇱Poland | WL [id: wq9]"
+    type: vless
+    server: 89.208.87.173
+    port: 8443
+    uuid: be77a7c2-f6a3-4bc8-940e-217104228235
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: m.vk.com
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 887c0d72e771a934
+    client-fingerprint: random
+
+  - name: "🇵🇱Poland Alt | WL [id: e19]"
+    type: vless
+    server: 158.160.201.80
+    port: 443
+    uuid: be77a7c2-f6a3-4bc8-940e-217104228235
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: m.vk.com
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 1929ef620e9b34f5
+    client-fingerprint: chrome
+
+  - name: "🇭🇺 Hungary | WL [id: w9m]"
+    type: vless
+    server: 158.160.202.13
+    port: 8443
+    uuid: 19be800d-f8d8-43e5-bbbc-51b1d035e1a2
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: tradingview.com
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: 8ba12e75110b7a9c
+    client-fingerprint: random
+
+  - name: "🇭🇺 Hungary Alt | WL [id: 27i]"
+    type: vless
+    server: 83.166.236.32
+    port: 8443
+    uuid: 19be800d-f8d8-43e5-bbbc-51b1d035e1a2
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: tradingview.com
+    reality-opts:
+      public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+      short-id: 8ba12e75110b7a9c
+    client-fingerprint: random
+
+  - name: "🇪🇸Spain | WL [id: 20l]"
+    type: vless
+    server: 158.160.196.107
+    port: 443
+    uuid: 561b5981-d4cc-4f5d-b635-14537ca06212
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: tradingview.com
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 48fccabc158a4c22
+    client-fingerprint: chrome
+
+  - name: "🇪🇸Spain Alt | WL [id: 9jq]"
+    type: vless
+    server: 90.156.150.229
+    port: 8443
+    uuid: 561b5981-d4cc-4f5d-b635-14537ca06212
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: tradingview.com
+    reality-opts:
+      public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+      short-id: 28047c78b3f5ee2c
+    client-fingerprint: random
+
+  - name: "🇹🇷Turkey | WL [id: hf8]"
+    type: vless
+    server: 158.160.182.134
+    port: 443
+    uuid: a5059201-8137-4836-89e9-50c2d5319999
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: tradingview.com
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: 205748bc0f24a747
+    client-fingerprint: chrome
+
+  - name: "🇹🇷Turkey Alt | WL [id: n8p]"
+    type: vless
+    server: 212.233.95.237
+    port: 443
+    uuid: a5059201-8137-4836-89e9-50c2d5319999
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: tradingview.com
+    reality-opts:
+      public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+      short-id: 205748bc0f24a747
+    client-fingerprint: chrome
+
+  - name: "🇷🇺Russia | WL | MegaFon"
+    type: vless
+    server: 51.250.21.113
+    port: 7443
+    uuid: 2f0e01f3-8c74-458e-a474-b4aa4ac879aa
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: api-maps.yandex.ru
+    reality-opts:
+      public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+      short-id: a20d3ed244c76426
+    client-fingerprint: qq
+
+  - name: "🇷🇺Russia | WL | XHTTP"
+    type: vless
+    server: 188.72.103.3
+    port: 443
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: http
+    tls: true
+    udp: true
+    servername: germany1.cdn.yandexdns.ru
+    client-fingerprint: chrome
+
+  - name: "🇷🇺Russia | WL | XHTTP | ⚡️"
+    type: vless
+    server: 188.72.103.3
+    port: 443
+    uuid: 402336f0-6589-456d-864f-6c7c8b2fb0b0
+    network: http
+    tls: true
+    udp: true
+    servername: ch.fjdjdjfjd.icu
+    client-fingerprint: chrome
+
+  - name: "🇷🇺Russia | WL"
+    type: vless
+    server: 188.72.103.3
+    port: 443
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: http
+    tls: true
+    udp: true
+    servername: yandexcdn.yandexdns.ru
+    client-fingerprint: chrome
+
+  - name: "🇷🇺Russia | WL 2"
+    type: vless
+    server: 188.72.103.3
+    port: 443
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: http
+    tls: true
+    udp: true
+    servername: germany2.cdn.yandexdns.ru
+    client-fingerprint: chrome
+
+  - name: "🇷🇺Russia | WL 3"
+    type: vless
+    server: 51.250.28.39
+    port: 4248
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: api-maps.yandex.ru
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    client-fingerprint: qq
+
+  - name: "🇷🇺Russia | WL 4"
+    type: vless
+    server: 51.250.106.64
+    port: 4248
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: api-maps.yandex.ru
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    client-fingerprint: qq
+
+  - name: "🇷🇺Russia | WL 5"
+    type: vless
+    server: 217.16.26.172
+    port: 1080
+    uuid: 805b52df-0581-495b-b8b5-b99594424053
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: sun6-21.userapi.com
+    reality-opts:
+      public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
+      short-id: "4326"
+    client-fingerprint: qq
+
+  - name: "🇷🇺Russia | WL 6"
+    type: vless
+    server: 217.16.26.52
+    port: 443
+    uuid: b0031635-64a5-4f82-aed6-55e0b8d1e431
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: api-maps.yandex.ru
+    reality-opts:
+      public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+      short-id: 43dcff53849b81e6
+    client-fingerprint: qq
+
+  - name: "🇷🇺Russia | WL 7"
+    type: vless
+    server: 217.16.23.11
+    port: 443
+    uuid: b0031635-64a5-4f82-aed6-55e0b8d1e431
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: sun1-91.userapi.com
+    reality-opts:
+      public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+      short-id: 43dcff53849b81e6
+    client-fingerprint: qq
+
+  - name: "🇷🇺Russia | WL gRPC"
+    type: vless
+    server: 51.250.106.64
+    port: 443
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: grpc
+    tls: true
+    udp: true
+    servername: api-maps.yandex.ru
+    reality-opts:
+      public-key: FCg2XiFJrpH-2XlELSSSyEC7zkeW29HOgp4rfrqXEAI
+      short-id: 123abc
+    grpc-opts:
+      grpc-service-name: xyz
+    client-fingerprint: chrome
+
+  - name: "🇷🇺Russia | WL gRPC 2"
+    type: vless
+    server: 51.250.28.39
+    port: 443
+    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+    network: grpc
+    tls: true
+    udp: true
+    servername: api-maps.yandex.ru
+    reality-opts:
+      public-key: FCg2XiFJrpH-2XlELSSSyEC7zkeW29HOgp4rfrqXEAI
+      short-id: 123abc
+    grpc-opts:
+      grpc-service-name: xyz
+    client-fingerprint: chrome
+
+  - name: "🇷🇺Russia | WL 8"
+    type: vless
+    server: 84.201.132.223
+    port: 443
+    uuid: b0031635-64a5-4f82-aed6-55e0b8d1e431
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: api-maps.yandex.ru
+    reality-opts:
+      public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+      short-id: 43dcff53849b81e6
+    client-fingerprint: edge
 
 proxy-groups:
-  - name: "🚀 Proxy"
+  - name: 🚀 Proxy
     type: select
     proxies:
-      - "🇯🇵 Japan"
-      - "🇺🇸 USA"
-      - "🇧🇷 Brazil"
-      - "🇨🇦 Canada"
-      - "🇦🇪 UAE"
-      - "🇩🇪 Germany"
+      - ♻️ Auto
+      - 🇳🇱 Netherlands
+      - 🇪🇺 Europe
+      - 🇵🇱 Poland
+      - 🇭🇺 Hungary
+      - 🇪🇸 Spain
+      - 🇹🇷 Turkey
+      - 🇷🇺 Russia
+      - DIRECT
 
-  - name: "🌍 Auto"
+  - name: ♻️ Auto
     type: url-test
-    proxies:
-      - "🇯🇵 Japan"
-      - "🇺🇸 USA"
-      - "🇧🇷 Brazil"
-      - "🇨🇦 Canada"
-      - "🇦🇪 UAE"
-      - "🇩🇪 Germany"
-    url: 'http://www.gstatic.com/generate_204'
+    url: http://www.gstatic.com/generate_204
     interval: 300
+    tolerance: 50
+    proxies:
+      - 🇳🇱Netherlands⚡️👑
+      - 🇳🇱 Netherlands | XHTTP |⚡️
+      - 🇳🇱Netherlands | XHTTP |⚡️🌀
+      - 🇳🇱Netherlands⚡️
+      - 🇳🇱Netherlands
+      - 🇪🇺Europe | WL
+      - 🇪🇺Europe | WL | ⚡️
+      - 🇳🇱Netherlands | WL | Основной
+      - 🇳🇱Netherlands | WL | MTS
+      - 🇵🇱Poland | WL [id: wq9]
+      - 🇵🇱Poland Alt | WL [id: e19]
+      - 🇭🇺 Hungary | WL [id: w9m]
+      - 🇭🇺 Hungary Alt | WL [id: 27i]
+      - 🇪🇸Spain | WL [id: 20l]
+      - 🇪🇸Spain Alt | WL [id: 9jq]
+      - 🇹🇷Turkey | WL [id: hf8]
+      - 🇹🇷Turkey Alt | WL [id: n8p]
+      - 🇷🇺Russia | WL | MegaFon
+      - 🇷🇺Russia | WL | XHTTP
+      - 🇷🇺Russia | WL | XHTTP | ⚡️
+      - 🇷🇺Russia | WL
+      - 🇷🇺Russia | WL 2
+      - 🇷🇺Russia | WL 3
+      - 🇷🇺Russia | WL 4
+      - 🇷🇺Russia | WL 5
+      - 🇷🇺Russia | WL 6
+      - 🇷🇺Russia | WL 7
+      - 🇷🇺Russia | WL gRPC
+      - 🇷🇺Russia | WL gRPC 2
+      - 🇷🇺Russia | WL 8
+
+  - name: 🇳🇱 Netherlands
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇳🇱Netherlands⚡️👑
+      - 🇳🇱 Netherlands | XHTTP |⚡️
+      - 🇳🇱Netherlands | XHTTP |⚡️🌀
+      - 🇳🇱Netherlands⚡️
+      - 🇳🇱Netherlands
+      - 🇳🇱Netherlands | WL | Основной
+      - 🇳🇱Netherlands | WL | MTS
+
+  - name: 🇪🇺 Europe
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇪🇺Europe | WL
+      - 🇪🇺Europe | WL | ⚡️
+
+  - name: 🇵🇱 Poland
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇵🇱Poland | WL [id: wq9]
+      - 🇵🇱Poland Alt | WL [id: e19]
+
+  - name: 🇭🇺 Hungary
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇺 Hungary | WL [id: w9m]
+      - 🇭🇺 Hungary Alt | WL [id: 27i]
+
+  - name: 🇪🇸 Spain
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇪🇸Spain | WL [id: 20l]
+      - 🇪🇸Spain Alt | WL [id: 9jq]
+
+  - name: 🇹🇷 Turkey
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇹🇷Turkey | WL [id: hf8]
+      - 🇹🇷Turkey Alt | WL [id: n8p]
+
+  - name: 🇷🇺 Russia
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇷🇺Russia | WL | MegaFon
+      - 🇷🇺Russia | WL | XHTTP
+      - 🇷🇺Russia | WL | XHTTP | ⚡️
+      - 🇷🇺Russia | WL
+      - 🇷🇺Russia | WL 2
+      - 🇷🇺Russia | WL 3
+      - 🇷🇺Russia | WL 4
+      - 🇷🇺Russia | WL 5
+      - 🇷🇺Russia | WL 6
+      - 🇷🇺Russia | WL 7
+      - 🇷🇺Russia | WL gRPC
+      - 🇷🇺Russia | WL gRPC 2
+      - 🇷🇺Russia | WL 8
 
 rules:
+  - DOMAIN-SUFFIX,google.com,🚀 Proxy
+  - DOMAIN-SUFFIX,youtube.com,🚀 Proxy
+  - DOMAIN-SUFFIX,facebook.com,🚀 Proxy
+  - DOMAIN-SUFFIX,twitter.com,🚀 Proxy
+  - DOMAIN-SUFFIX,instagram.com,🚀 Proxy
+  - DOMAIN-SUFFIX,openai.com,🚀 Proxy
+  - DOMAIN-SUFFIX,claude.ai,🚀 Proxy
+  - DOMAIN-KEYWORD,google,🚀 Proxy
+  - GEOIP,CN,DIRECT
+  - GEOIP,RU,DIRECT
   - MATCH,🚀 Proxy
 
 
