@@ -1,6 +1,5 @@
 #profile-update-interval: 1
 #profile-title: ☃️ ShadowNet
-#subscription-userinfo: upload=0; download=0; total=109951162777600; expire=1893456000
 #support-url: https://t.me/ShadowVpnSupport_bot
 #profile-web-page-url: https://t.me/ShadowVpn_net
 #announce: Все конфигурации в подписке собраны из открытых источников, используйте их если у вас действуют белые списки❄️
