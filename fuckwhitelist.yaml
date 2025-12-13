@@ -432,7 +432,7 @@ proxy-groups:
       - "♻️ Auto"
       - "📋 Whitelist"
       - "🇳🇱Netherlands⚡️👑"
-      - "🇳🇱Netherlands | XHTTP"
+      - "🇳🇱Netherlands"
       - "🇳🇱Netherlands SS"
       - "🇳🇱Netherlands GMN"
       - "🇪🇺Europe WL"
@@ -469,7 +469,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "🇳🇱Netherlands⚡️👑"
-      - "🇳🇱Netherlands | XHTTP"
+      - "🇳🇱Netherlands"
       - "🇳🇱Netherlands SS"
       - "🇳🇱Netherlands GMN"
       - "🇪🇺Europe WL"
@@ -539,6 +539,7 @@ rules:
   - GEOIP,CN,DIRECT
   - GEOIP,RU,DIRECT
   - MATCH,🚀 Proxy
+
 
 
 
