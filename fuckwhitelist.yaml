@@ -1,9 +1,29 @@
 port: 7890
 socks-port: 7891
+mixed-port: 7892
 allow-lan: true
+bind-address: '*'
 mode: rule
 log-level: info
+ipv6: false
 external-controller: 127.0.0.1:9090
+
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+  nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - https://dns.google/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
 
 proxies:
   - name: "🇳🇱Netherlands⚡️👑"
@@ -20,20 +40,6 @@ proxies:
       public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
       short-id: 387d2fb5f83c0cde
     client-fingerprint: random
-
-  - name: "🇳🇱 Netherlands | XHTTP |⚡️"
-    type: vless
-    server: nl01-ss01.tcp-reset-club.net
-    port: 443
-    uuid: 35274d58-fc5d-4ddf-81c2-65c2673dd0f9
-    network: http
-    tls: true
-    udp: true
-    servername: stats.vk-portal.net
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 8453e5fd9af927
-    client-fingerprint: chrome
 
   - name: "🇳🇱Netherlands | XHTTP |⚡️🌀"
     type: vless
@@ -263,50 +269,6 @@ proxies:
       short-id: a20d3ed244c76426
     client-fingerprint: qq
 
-  - name: "🇷🇺Russia | WL | XHTTP"
-    type: vless
-    server: 188.72.103.3
-    port: 443
-    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-    network: http
-    tls: true
-    udp: true
-    servername: germany1.cdn.yandexdns.ru
-    client-fingerprint: chrome
-
-  - name: "🇷🇺Russia | WL | XHTTP | ⚡️"
-    type: vless
-    server: 188.72.103.3
-    port: 443
-    uuid: 402336f0-6589-456d-864f-6c7c8b2fb0b0
-    network: http
-    tls: true
-    udp: true
-    servername: ch.fjdjdjfjd.icu
-    client-fingerprint: chrome
-
-  - name: "🇷🇺Russia | WL"
-    type: vless
-    server: 188.72.103.3
-    port: 443
-    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-    network: http
-    tls: true
-    udp: true
-    servername: yandexcdn.yandexdns.ru
-    client-fingerprint: chrome
-
-  - name: "🇷🇺Russia | WL 2"
-    type: vless
-    server: 188.72.103.3
-    port: 443
-    uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-    network: http
-    tls: true
-    udp: true
-    servername: germany2.cdn.yandexdns.ru
-    client-fingerprint: chrome
-
   - name: "🇷🇺Russia | WL 3"
     type: vless
     server: 51.250.28.39
@@ -427,6 +389,42 @@ proxies:
       short-id: 43dcff53849b81e6
     client-fingerprint: edge
 
+  - name: "🇯🇵 Japan"
+    type: ss
+    server: 103.75.118.125
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh"
+    udp: true
+
+  - name: "🇺🇸 USA"
+    type: ss
+    server: 23.95.72.81
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "UAMVtHm54uahd6SiN5WcD16rsPSdabPG"
+    udp: true
+
+  - name: "🇧🇷 Brazil"
+    type: ss
+    server: 213.159.66.206
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu"
+    udp: true
+
+  - name: "🇨🇦 Canada"
+    type: vless
+    server: 86.107.168.100
+    port: 7070
+    uuid: be32c9ad-92e1-485b-dc74-2a65e9dae480
+    network: tcp
+    tls: true
+    udp: true
+    skip-cert-verify: false
+    servername: src.smnsoft.com
+    client-fingerprint: chrome
+
 proxy-groups:
   - name: 🚀 Proxy
     type: select
@@ -439,6 +437,10 @@ proxy-groups:
       - 🇪🇸 Spain
       - 🇹🇷 Turkey
       - 🇷🇺 Russia
+      - 🇯🇵 Japan
+      - 🇺🇸 USA
+      - 🇧🇷 Brazil
+      - 🇨🇦 Canada
       - DIRECT
 
   - name: ♻️ Auto
@@ -448,7 +450,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇳🇱Netherlands⚡️👑
-      - 🇳🇱 Netherlands | XHTTP |⚡️
       - 🇳🇱Netherlands | XHTTP |⚡️🌀
       - 🇳🇱Netherlands⚡️
       - 🇳🇱Netherlands
@@ -465,10 +466,6 @@ proxy-groups:
       - 🇹🇷Turkey | WL [id: hf8]
       - 🇹🇷Turkey Alt | WL [id: n8p]
       - 🇷🇺Russia | WL | MegaFon
-      - 🇷🇺Russia | WL | XHTTP
-      - 🇷🇺Russia | WL | XHTTP | ⚡️
-      - 🇷🇺Russia | WL
-      - 🇷🇺Russia | WL 2
       - 🇷🇺Russia | WL 3
       - 🇷🇺Russia | WL 4
       - 🇷🇺Russia | WL 5
@@ -477,6 +474,10 @@ proxy-groups:
       - 🇷🇺Russia | WL gRPC
       - 🇷🇺Russia | WL gRPC 2
       - 🇷🇺Russia | WL 8
+      - 🇯🇵 Japan
+      - 🇺🇸 USA
+      - 🇧🇷 Brazil
+      - 🇨🇦 Canada
 
   - name: 🇳🇱 Netherlands
     type: url-test
@@ -485,7 +486,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇳🇱Netherlands⚡️👑
-      - 🇳🇱 Netherlands | XHTTP |⚡️
       - 🇳🇱Netherlands | XHTTP |⚡️🌀
       - 🇳🇱Netherlands⚡️
       - 🇳🇱Netherlands
@@ -544,10 +544,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇷🇺Russia | WL | MegaFon
-      - 🇷🇺Russia | WL | XHTTP
-      - 🇷🇺Russia | WL | XHTTP | ⚡️
-      - 🇷🇺Russia | WL
-      - 🇷🇺Russia | WL 2
       - 🇷🇺Russia | WL 3
       - 🇷🇺Russia | WL 4
       - 🇷🇺Russia | WL 5
@@ -557,19 +553,43 @@ proxy-groups:
       - 🇷🇺Russia | WL gRPC 2
       - 🇷🇺Russia | WL 8
 
+  - name: 🇯🇵 Japan
+    type: select
+    proxies:
+      - 🇯🇵 Japan
+
+  - name: 🇺🇸 USA
+    type: select
+    proxies:
+      - 🇺🇸 USA
+
+  - name: 🇧🇷 Brazil
+    type: select
+    proxies:
+      - 🇧🇷 Brazil
+
+  - name: 🇨🇦 Canada
+    type: select
+    proxies:
+      - 🇨🇦 Canada
+
 rules:
   - DOMAIN-SUFFIX,google.com,🚀 Proxy
+  - DOMAIN-SUFFIX,googleapis.com,🚀 Proxy
   - DOMAIN-SUFFIX,youtube.com,🚀 Proxy
+  - DOMAIN-SUFFIX,ytimg.com,🚀 Proxy
   - DOMAIN-SUFFIX,facebook.com,🚀 Proxy
   - DOMAIN-SUFFIX,twitter.com,🚀 Proxy
+  - DOMAIN-SUFFIX,x.com,🚀 Proxy
   - DOMAIN-SUFFIX,instagram.com,🚀 Proxy
   - DOMAIN-SUFFIX,openai.com,🚀 Proxy
   - DOMAIN-SUFFIX,claude.ai,🚀 Proxy
+  - DOMAIN-SUFFIX,anthropic.com,🚀 Proxy
+  - DOMAIN-SUFFIX,chatgpt.com,🚀 Proxy
   - DOMAIN-KEYWORD,google,🚀 Proxy
   - GEOIP,CN,DIRECT
   - GEOIP,RU,DIRECT
   - MATCH,🚀 Proxy
-
 
 
 
