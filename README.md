@@ -1,66 +1,73 @@
+<div align="center">
+
 # 🌀 ShadowVPN Subscriptions
 
-![GitHub repo size](https://img.shields.io/github/repo-size/HikaruApps/WhiteLattice?color=blue&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/HikaruApps/WhiteLattice?color=brightgreen&style=flat-square)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/YOUR_REPO_NAME?color=blue&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO_NAME?color=brightgreen&style=for-the-badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-<p align="right">
-  <a href="README.en.md"><img src="https://img.shields.io/badge/lang-en-red?style=flat-square"></a>
-  <a href="README.md"><img src="https://img.shields.io/badge/lang-ru-blue?style=flat-square"></a>
-</p>
+Коллекция высокоскоростных конфигураций для обхода блокировок. <br> 
+Все файлы доступны через **GitHub Raw** для мгновенного обновления.
 
-
-Коллекция высокоскоростных конфигураций и подписок. Все файлы доступны через **GitHub Raw** для мгновенного обновления в ваших приложениях.
-
----
-
-## 🚀 Быстрый старт
-
-Все актуальные листы подписок хранятся в папке [`subscriptions`](./subscriptions). 
-
-1. Откройте папку и выберите нужный `.txt` файл.
-2. Нажмите кнопку **"Raw"**.
-3. Скопируйте полученную ссылку и вставьте её в ваш VPN-клиент в раздел **Subscription Group / Провайдеры подписок**.
-
----
-
-## 📱 Рекомендуемые приложения
-
-Мы подобрали лучшие инструменты для работы с данными протоколами:
-
-### 🤖 Android
-* **[v2rayNG](https://github.com/2dust/v2rayNG)** — Классика, проверенная временем.
-* **[v2rayTun](https://github.com/v2rayTun/v2rayTun)** — Легкий и быстрый клиент с отличным интерфейсом.
-* **[NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid)** — Максимальный функционал для продвинутых пользователей.
-* **[Karing](https://github.com/KaringX/karing)** — Мощный кроссплатформенный клиент.
-
-### 🍏 iOS / macOS
-* **[Karing](https://apps.apple.com/app/karing/id6472431552)** — Современный и очень удобный.
-* **[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)** — Самый популярный платный клиент.
-* **[Stash](https://apps.apple.com/app/stash/id1596063260)** — Аналог Clash для iOS.
-* **[Thorn (Streisand)](https://github.com/clash-verge-rev/clash-verge-rev)** — Минимализм и стабильность.
-
-### 💻 Windows / Linux
-* **[v2rayN](https://github.com/2dust/v2rayN)** — Стабильный выбор для Windows.
-* **[Hiddify Next](https://github.com/hiddify/hiddify-next)** — Самый простой в настройке «в один клик».
-* **[Happ (v2rayTun Desktop)](https://github.com/v2rayTun/v2rayTun)** — Стильный интерфейс для ПК.
-
----
-
-## 🛠 Обозначения в конфигах
-
-| Символ | Значение | Описание |
-| :---: | :--- | :--- |
-| 🪄 | **Magic VLESS** | Конфиги с технологией Reality (невидимы для цензуры). |
-| 🌀 | **Shadow Trojan** | Стабильные Trojan-конфиги для повседневного использования. |
-| 💎 | **Premium Hy2** | Высокоскоростные протоколы Hysteria2. |
-
----
-
-## 💬 Поддержка и обратная связь
-Если какой-то из серверов перестал работать, пожалуйста, создайте **Issue** или просто подождите автоматического обновления репозитория.
-
----
 <p align="center">
-<i>Created with 🪄 and passion. Use responsibly.</i>
+  <a href="README.en.md"><strong>English</strong></a> • 
+  <a href="README.md"><strong>Русский</strong></a>
 </p>
+
+---
+
+### ⚡ Быстрый старт
+
+| Шаг | Действие |
+| :--- | :--- |
+| **1** | Зайдите в папку [`subscriptions`](./subscriptions) |
+| **2** | Откройте нужный `.txt` файл и нажмите кнопку **Raw** |
+| **3** | Скопируйте ссылку и вставьте её в ваш VPN клиент |
+
+</div>
+
+---
+
+## 🛠 Легенда конфигов
+
+> Мы используем специальные символы, чтобы вы могли быстро найти нужный тип подключения:
+
+* 🪄 **Magic VLESS** — Технология Reality (максимальная маскировка).
+* 🌀 **Shadow Trojan** — Стабильный и надежный протокол.
+* 💎 **Premium Hy2** — Hysteria2 для самых быстрых загрузок.
+
+---
+
+## 📱 Рекомендуемые клиенты
+
+<details>
+<summary><b>🤖 Android (нажать, чтобы развернуть)</b></summary>
+
+* [v2rayNG](https://github.com/2dust/v2rayNG)
+* [v2rayTun](https://github.com/v2rayTun/v2rayTun)
+* [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid)
+* [Karing](https://github.com/KaringX/karing)
+</details>
+
+<details>
+<summary><b>🍏 iOS / macOS (нажать, чтобы развернуть)</b></summary>
+
+* [Karing](https://apps.apple.com/app/karing/id6472431552)
+* [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)
+* [Stash](https://apps.apple.com/app/stash/id1596063260)
+* [Thorn](https://github.com/clash-verge-rev/clash-verge-rev)
+</details>
+
+<details>
+<summary><b>💻 Windows / Linux (нажать, чтобы развернуть)</b></summary>
+
+* [v2rayN](https://github.com/2dust/v2rayN)
+* [Hiddify Next](https://github.com/hiddify/hiddify-next)
+* [Happ (Desktop)](https://github.com/v2rayTun/v2rayTun)
+</details>
+
+---
+
+<div align="center">
+  <sub>Сделано с магией 🪄 и заботой о вашей свободе.</sub>
+</div>
