@@ -1,65 +1,73 @@
-<p align="right">
-  <a href="README.en.md"><img src="https://img.shields.io/badge/lang-en-red?style=flat-square"></a>
-  <a href="README.md"><img src="https://img.shields.io/badge/lang-ru-blue?style=flat-square"></a>
-</p>
+<div align="center">
 
 # 🌀 ShadowVPN Subscriptions
 
-![GitHub repo size](https://img.shields.io/github/repo-size/HikaruApps/WhiteLattice?color=blue&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/HikaruApps/WhiteLattice?color=brightgreen&style=flat-square)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+![GitHub repo size](https://img.shields.io/github/repo-size/HikaruApps/WhiteLattice?color=blue&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/HikaruApps/WhiteLattice?color=brightgreen&style=for-the-badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-A curated collection of high-speed VPN configurations. All files are available via **GitHub Raw** for instant updates in your applications.
+A curated collection of high-speed configurations for bypassing censorship. <br> 
+All files are available via **GitHub Raw** for instant updates.
 
----
-
-## 🚀 Quick Start
-
-All active subscription lists are stored in the [`subscriptions`](./subscriptions) folder.
-
-1. Open the folder and select the desired `.txt` file.
-2. Click the **"Raw"** button.
-3. Copy the resulting URL and paste it into your VPN client under **Subscription Group / Subscription Providers**.
-
----
-
-## 📱 Recommended Apps
-
-We’ve selected the best tools for working with these protocols:
-
-### 🤖 Android
-* **[v2rayNG](https://github.com/2dust/v2rayNG)** — A timeless classic for V2Ray.
-* **[v2rayTun](https://github.com/v2rayTun/v2rayTun)** — Lightweight and fast client with a modern UI.
-* **[NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid)** — Powerful features for advanced users.
-* **[Karing](https://github.com/KaringX/karing)** — A powerful cross-platform solution.
-
-### 🍏 iOS / macOS
-* **[Karing](https://apps.apple.com/app/karing/id6472431552)** — Modern, fast, and very user-friendly.
-* **[Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)** — The most popular paid client for iOS.
-* **[Stash](https://apps.apple.com/app/stash/id1596063260)** — A premium Clash-based client.
-* **[Thorn (Streisand)](https://github.com/clash-verge-rev/clash-verge-rev)** — Minimalist design and high stability.
-
-### 💻 Windows / Linux
-* **[v2rayN](https://github.com/2dust/v2rayN)** — A stable and reliable choice for Windows.
-* **[Hiddify Next](https://github.com/hiddify/hiddify-next)** — The easiest "one-click" setup.
-* **[Happ (v2rayTun Desktop)](https://github.com/v2rayTun/v2rayTun)** — Stylish and efficient desktop interface.
-
----
-
-## 🛠 Legend
-
-| Icon | Protocol | Description |
-| :---: | :--- | :--- |
-| 🪄 | **Magic VLESS** | Configurations with Reality technology (invisible to censorship). |
-| 🌀 | **Shadow Trojan** | Stable Trojan configs for daily browsing. |
-| 💎 | **Premium Hy2** | High-speed Hysteria2 protocols for unstable networks. |
-
----
-
-## 💬 Support
-If any server stops working, please open an **Issue** or wait for the automatic repository update.
-
----
 <p align="center">
-<i>Created with 🪄 and passion. Use responsibly.</i>
+  <a href="README.en.md"><strong>English</strong></a> • 
+  <a href="README.md"><strong>Русский</strong></a>
 </p>
+
+---
+
+### ⚡ Quick Start
+
+| Step | Action |
+| :--- | :--- |
+| **1** | Navigate to the [`subscriptions`](./subscriptions) folder |
+| **2** | Open the desired `.txt` file and click the **Raw** button |
+| **3** | Copy the link and paste it into your VPN client |
+
+</div>
+
+---
+
+## 🛠 Config Legend
+
+> We use special icons to help you find the right connection type quickly:
+
+* 🪄 **Magic VLESS** — Reality technology (maximum stealth and camouflage).
+* 🌀 **Shadow Trojan** — Stable and reliable protocol for daily use.
+* 💎 **Premium Hy2** — Hysteria2 for the fastest possible speeds.
+
+---
+
+## 📱 Recommended Clients
+
+<details>
+<summary><b>🤖 Android (click to expand)</b></summary>
+
+* [v2rayNG](https://github.com/2dust/v2rayNG)
+* [v2rayTun](https://github.com/v2rayTun/v2rayTun)
+* [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid)
+* [Karing](https://github.com/KaringX/karing)
+</details>
+
+<details>
+<summary><b>🍏 iOS / macOS (click to expand)</b></summary>
+
+* [Karing](https://apps.apple.com/app/karing/id6472431552)
+* [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)
+* [Stash](https://apps.apple.com/app/stash/id1596063260)
+* [Thorn](https://github.com/clash-verge-rev/clash-verge-rev)
+</details>
+
+<details>
+<summary><b>💻 Windows / Linux (click to expand)</b></summary>
+
+* [v2rayN](https://github.com/2dust/v2rayN)
+* [Hiddify Next](https://github.com/hiddify/hiddify-next)
+* [Happ (Desktop)](https://github.com/v2rayTun/v2rayTun)
+</details>
+
+---
+
+<div align="center">
+  <sub>Made with 🪄 and care for your digital freedom.</sub>
+</div>
