@@ -5,8 +5,8 @@
 
 # 🌀 ShadowVPN Subscriptions
 
-![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/YOUR_REPO_NAME?color=blue&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO_NAME?color=brightgreen&style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/HikaruApps/WhiteLattice?color=blue&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/HikaruApps/WhiteLattice?color=brightgreen&style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 A curated collection of high-speed VPN configurations. All files are available via **GitHub Raw** for instant updates in your applications.
