@@ -1,7 +1,7 @@
 # 🌀 ShadowVPN Subscriptions
 
-![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/YOUR_REPO_NAME?color=blue&style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO_NAME?color=brightgreen&style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/HikaruApps/WhiteLattice?color=blue&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/HikaruApps/WhiteLattice?color=brightgreen&style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 Коллекция высокоскоростных конфигураций для обхода блокировок. <br> 
