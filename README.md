@@ -1,3 +1,8 @@
+<p align="right">
+  <a href="README.en.md"><img src="https://img.shields.io/badge/lang-en-red?style=flat-square"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/lang-ru-blue?style=flat-square"></a>
+</p>
+
 # 🌀 ShadowVPN Subscriptions
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/HikaruApps/WhiteLattice?color=blue&style=flat-square)
