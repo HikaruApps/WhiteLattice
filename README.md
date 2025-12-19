@@ -1,5 +1,3 @@
-<div align="center">
-
 # 🌀 ShadowVPN Subscriptions
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/YOUR_REPO_NAME?color=blue&style=for-the-badge)
