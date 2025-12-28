@@ -44,7 +44,13 @@ https://raw.githubusercontent.com/HikaruApps/WhiteLattice/refs/heads/main/subscr
 https://raw.githubusercontent.com/HikaruApps/WhiteLattice/refs/heads/main/subscriptions/magic_vless.txt
 ```
 * 🌀 **Shadow Trojan** — Стабильный и надежный протокол.
+```
+в разработке
+```
 * 💎 **Premium Hy2** — Hysteria2 для самых быстрых загрузок.
+```
+в разработке
+```
 
 ---
 
