@@ -33,6 +33,9 @@ All files are available via **GitHub Raw** for instant updates.
 > We use special icons to help you find the right connection type quickly:
 
 * 🪄 **Magic VLESS** — Reality technology (maximum stealth and camouflage).
+  ```
+  https://raw.githubusercontent.com/HikaruApps/WhiteLattice/refs/heads/main/subscriptions/magic_vless.txt
+  ```
 * 🌀 **Shadow Trojan** — Stable and reliable protocol for daily use.
 * 💎 **Premium Hy2** — Hysteria2 for the fastest possible speeds.
 
