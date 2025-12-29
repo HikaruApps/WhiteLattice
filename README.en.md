@@ -10,7 +10,7 @@ All files are available via **GitHub Raw** for instant updates.
 <p align="center">
   <a href="README.md"><strong>English</strong></a> • 
   <a href="README.ru.md"><strong>Русский</strong></a> •
-  <a href="README.zh.md"><strong>中文</strong></a>
+  <a href="README.ch.md"><strong>中文</strong></a>
 </p>
 
 ---
