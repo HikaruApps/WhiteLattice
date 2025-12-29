@@ -1,17 +1,15 @@
-<div align="center">
-
 # 🌀 ShadowVPN Subscriptions
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/HikaruApps/WhiteLattice?color=blue&style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/HikaruApps/WhiteLattice?color=brightgreen&style=for-the-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-A curated collection of high-speed configurations for bypassing censorship. <br> 
+A collection of high-speed configurations for bypassing restrictions. <br>
 All files are available via **GitHub Raw** for instant updates.
 
 <p align="center">
-  <a href="README.en.md"><strong>English</strong></a> • 
-  <a href="README.md"><strong>Русский</strong></a>
+  <a href="README.md"><strong>English</strong></a> • 
+  <a href="README.ru.md"><strong>Русский</strong></a>
 </p>
 
 ---
@@ -20,7 +18,7 @@ All files are available via **GitHub Raw** for instant updates.
 
 | Step | Action |
 | :--- | :--- |
-| **1** | Navigate to the [`subscriptions`](./subscriptions) folder |
+| **1** | Go to the [`subscriptions`](./subscriptions) folder |
 | **2** | Open the desired `.txt` file and click the **Raw** button |
 | **3** | Copy the link and paste it into your VPN client |
 
@@ -28,18 +26,31 @@ All files are available via **GitHub Raw** for instant updates.
 
 ---
 
-## 🛠 Config Legend
+## 🛠 Configuration Legend
 
-> We use special icons to help you find the right connection type quickly:
+> We use special symbols so you can quickly find the desired connection type:
 
-* 🪄 **Magic VLESS** — Reality technology (maximum stealth and camouflage).
+* 🪄 **Magic VLESS** — Reality technology (maximum obfuscation).
   ```
   https://raw.githubusercontent.com/HikaruApps/WhiteLattice/refs/heads/main/subscriptions/magic_vless.txt
   ```
-* 🌀 **Shadow Trojan** — Stable and reliable protocol for daily use.
-* 💎 **Premium Hy2** — Hysteria2 for the fastest possible speeds.
-
----
+* 🌀 **Shadow Trojan** — Stable and reliable protocol.
+  ```
+  https://raw.githubusercontent.com/HikaruApps/WhiteLattice/refs/heads/main/subscriptions/shadow_trojan.txt
+  ```
+* 💎 **Premium Hy2** — Hysteria2 for the fastest downloads.
+  ```
+  In development
+  ```
+* 🥷 **Phantom Socks** — ShadowSocks | Classic, perfected to the ideal.
+  ```
+  In development
+  ```
+* 🔐 **Nebula VMess** — Vmess | Modern privacy standard.
+  ```
+  In development
+  ```
+  ---
 
 ## 📱 Recommended Clients
 
@@ -72,5 +83,5 @@ All files are available via **GitHub Raw** for instant updates.
 ---
 
 <div align="center">
-  <sub>Made with 🪄 and care for your digital freedom.</sub>
+  <sub>Made with magic 🪄 and care for your freedom.</sub>
 </div>
