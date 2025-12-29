@@ -45,7 +45,7 @@ https://raw.githubusercontent.com/HikaruApps/WhiteLattice/refs/heads/main/subscr
 ```
 * 🌀 **Shadow Trojan** — Стабильный и надежный протокол.
 ```
-в разработке
+https://raw.githubusercontent.com/HikaruApps/WhiteLattice/refs/heads/main/subscriptions/shadow_trojan.txt
 ```
 * 💎 **Premium Hy2** — Hysteria2 для самых быстрых загрузок.
 ```
