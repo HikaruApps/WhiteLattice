@@ -2,7 +2,7 @@
 #profile-title: ☃️ ShadowNet
 #support-url: https://t.me/ShadowVpnSupport_bot
 #profile-web-page-url: https://t.me/ShadowVpn_net
-#announce: Все конфигурации в подписке собраны из открытых источников, используйте их если у вас действуют белые списки❄️
+#announce: 💻Основная подписка для дома с Wi-Fi
 vless://bfe45936-2b6a-497d-a497-ccba4303140d@midorinote.ru:8443?security=reality&encryption=none&pbk=Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=m.vk.com&sid=387d2fb5f83c0cde#🇳🇱Netherlands⚡️👑
 vless://35274d58-fc5d-4ddf-81c2-65c2673dd0f9@nl01-ss01.tcp-reset-club.net:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&fp=chrome&spx=%2F&allowinsecure=0&type=xhttp&sni=stats.vk-portal.net&sid=8453e5fd9af927#🇳🇱 Netherlands | XHTTP |⚡️
 vless://35274d58-fc5d-4ddf-81c2-65c2673dd0f9@nl01-vlr01.tcp-reset-club.net:443?security=reality&encryption=none&pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&headerType=none&fp=chrome&spx=%2F&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=hls-svod.itunes.apple.com&sid=48720c#🇳🇱Netherlands | XHTTP |⚡️🌀
