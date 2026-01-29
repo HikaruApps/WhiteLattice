@@ -1,0 +1,379 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: false
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  nameserver:
+  - 1.1.1.1
+  - 8.8.8.8
+proxies:
+- name: 🇷🇺Russia | No Limit
+  server: all109.harknmav.fun
+  port: 443
+  udp: true
+  type: vless
+  uuid: a6efd1ab-2d4f-424a-b11d-dca5d8623705
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: max.ru
+  network: tcp
+  reality-opts:
+    public-key: Us7U978Q2jZwoEFoPxkv-fR1A4N0ehZVX_T9KwzXH3s
+    short-id: f69d7af6d5fc3e0c
+  client-fingerprint: chrome
+- name: 🇷🇺Russia | No Limit
+  server: 37.139.32.212
+  port: 443
+  udp: true
+  type: vless
+  uuid: 74b6eee7-898d-4f32-9987-a035210ec5e2
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: max.ru
+  network: tcp
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: f85b0cdd7d20c84c
+  client-fingerprint: chrome
+- name: 🇷🇺Russia | No Limit
+  server: 5-gaming.harknmav.fun
+  port: 7443
+  udp: true
+  type: vless
+  uuid: a6efd1ab-2d4f-424a-b11d-dca5d8623705
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: ads.x5.ru
+  network: tcp
+  reality-opts:
+    public-key: drNmkUbI5-4gRjLGYdYtleNnOIHeH4db_YQuFbHItDA
+    short-id: ad1ba2b350388c89
+  client-fingerprint: chrome
+- name: 🇷🇺Russia | No Limit
+  server: 51.250.46.121
+  port: 5443
+  udp: true
+  type: vless
+  uuid: d8c096b3-0b36-4573-9c30-f2a48eb2b942
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: max.ru
+  network: tcp
+  reality-opts:
+    public-key: Po6vtOwHYjzS-ibY01_2yrvhpw7jhOBDFesZKMcxUi8
+    short-id: 8cd9d7c88b8fd22c
+  client-fingerprint: chrome
+- name: 🇷🇺Russia | No Limit
+  server: 5-gaming.harknmav.fun
+  port: 10443
+  udp: true
+  type: vless
+  uuid: a6efd1ab-2d4f-424a-b11d-dca5d8623705
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: ads.x5.ru
+  network: tcp
+  reality-opts:
+    public-key: 29Nj1TexJekHKphyU1kpPxV_VKMz2pgAZ96V1VKmYn0
+    short-id: bd1c2c12ca44261a
+  client-fingerprint: chrome
+- name: 🇷🇺Russia | No Limit
+  server: 46.243.233.12
+  port: 443
+  udp: true
+  type: vless
+  uuid: 0d6974c7-d686-44ee-931e-a02de6879835
+  cipher: auto
+  tls: true
+  servername: web.max.ru
+  network: tcp
+  reality-opts:
+    public-key: mLZSvX6YgJbe-DIxWJ_7opUv3IadEXz3Gj-yJQFxd1w
+    short-id: 357d2ffdb2
+  client-fingerprint: chrome
+- name: 🇷🇺Russia | No Limit
+  server: 46.243.233.12
+  port: 443
+  udp: true
+  type: vless
+  uuid: 0d6974c7-d686-44ee-931e-a02de6879835
+  cipher: auto
+  tls: true
+  servername: web.max.ru
+  network: tcp
+  reality-opts:
+    public-key: mLZSvX6YgJbe-DIxWJ_7opUv3IadEXz3Gj-yJQFxd1w
+    short-id: 357d2ffdb2
+  client-fingerprint: chrome
+- name: 🇷🇺Russia | No Limit
+  server: 185.234.59.58
+  port: 443
+  udp: true
+  type: vless
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: hls-svod.itunes.apple.com
+  network: tcp
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: f79448a30d
+  client-fingerprint: chrome
+- name: 🇳🇱Netherlands | No Limit
+  server: 144.124.246.235
+  port: 443
+  udp: true
+  type: vless
+  uuid: b129eb83-f083-4660-a81a-e5991519a281
+  cipher: auto
+  tls: true
+  servername: eh.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: ZVfaZBEaPWlmb-Srxncu2WDACudPbm48S1V1Zy2ZcRw
+    short-id: 78523b486884cc4d
+  client-fingerprint: chrome
+- name: 🇷🇺Russia | No Limit
+  server: 159.195.43.70
+  port: 22955
+  udp: true
+  type: vless
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  cipher: auto
+  tls: true
+  servername: one-piece.com
+  network: grpc
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: 6ba85179e30d4fc2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇹🇷Turkey | No Limit
+  server: 146.185.240.23
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9dadf4a6-2ed5-4414-982f-05befa366905
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: c6ef72e4635d15a5
+  client-fingerprint: chrome
+- name: 🇫🇮Finland | 50Gb
+  server: free-wl.komaruvpn.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 634e4e9f-3017-46c2-95c2-5b9c55b89388
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: storage.yandexcloud.net
+  network: tcp
+  reality-opts:
+    public-key: 082TxwmfMDazGYpkOqNQCO8QVRX2lmsydatZUfV8GCU
+    short-id: f22ec2ab265c5efd
+  client-fingerprint: random
+- name: 🇸🇪Sweden | No Limit
+  server: 217.16.26.113
+  port: 993
+  udp: true
+  type: vless
+  uuid: ea00dd88-bf26-45da-b301-bc51f62251b2
+  cipher: auto
+  tls: true
+  servername: eh.vk.com
+  network: grpc
+  reality-opts:
+    public-key: ZARzkGY_wTuuFLAwjqlbouomKUTAzsV27toisTH4qlM
+    short-id: c59406dc
+  client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: VK
+- name: 🇫🇷France | No Limit
+  server: 217.16.26.113
+  port: 465
+  udp: true
+  type: vless
+  uuid: ea00dd88-bf26-45da-b301-bc51f62251b2
+  cipher: auto
+  tls: true
+  servername: eh.vk.com
+  network: xhttp
+  reality-opts:
+    public-key: QiZOZ076NEBj_qWvLTs3BOpFxWEAQMiEM8N5gZA-ZSI
+    short-id: 4e68ec
+  client-fingerprint: random
+- name: 🇭🇺Hungary | No Limit
+  server: 212.233.73.212
+  port: 443
+  udp: true
+  type: vless
+  uuid: 27a5fc60-29b7-4598-9cdd-b8180a01b441
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  client-fingerprint: chrome
+- name: 🇭🇺Hungary | No Limit
+  server: 84.23.52.70
+  port: 443
+  udp: true
+  type: vless
+  uuid: 27a5fc60-29b7-4598-9cdd-b8180a01b441
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 8ba12e75110b7a9c
+  client-fingerprint: chrome
+- name: 🇪🇸Spain | No Limit
+  server: 87.239.106.153
+  port: 443
+  udp: true
+  type: vless
+  uuid: 87d5d710-e07d-453b-8530-f743513024ba
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: 28047c78b3f5ee2c
+  client-fingerprint: chrome
+- name: 🇪🇸Spain | No Limit
+  server: 37.139.34.145
+  port: 443
+  udp: true
+  type: vless
+  uuid: 87d5d710-e07d-453b-8530-f743513024ba
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
+    short-id: 28047c78b3f5ee2c
+  client-fingerprint: chrome
+- name: 🇷🇺Russia | No Limit
+  server: 95.163.182.38
+  port: 7443
+  udp: true
+  type: vless
+  uuid: 20db9c4e-3b61-4fda-bb08-8dbb4da8e2dc
+  cipher: auto
+  tls: true
+  servername: 5post-gate.x5.ru
+  network: grpc
+  reality-opts:
+    public-key: 8hdXyv-YBQIaA2xgOfT2nhfna5y5s19qbZD-SpMZ6hg
+    short-id: dd700a46e27751d1
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+- name: 🇹🇷Turkey | No Limit
+  server: 146.185.240.23
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 9dadf4a6-2ed5-4414-982f-05befa366905
+  cipher: auto
+  flow: xtls-rprx-vision
+  tls: true
+  servername: m.vk.ru
+  network: tcp
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 205748bc0f24a747
+  client-fingerprint: chrome
+- name: 🇷🇺Russia | No Limit
+  server: 25.129.199.122
+  port: 2095
+  udp: true
+  type: vless
+  uuid: 06d4a2dd-b823-4b6a-843e-c159b6858d91
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ip6-free2.shakhle.ir.
+proxy-groups:
+- name: 🚀 Выбор Сервера
+  type: select
+  proxies:
+  - ⚡ Авто-выбор
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇳🇱Netherlands | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇹🇷Turkey | No Limit
+  - 🇫🇮Finland | 50Gb
+  - 🇸🇪Sweden | No Limit
+  - 🇫🇷France | No Limit
+  - 🇭🇺Hungary | No Limit
+  - 🇭🇺Hungary | No Limit
+  - 🇪🇸Spain | No Limit
+  - 🇪🇸Spain | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇹🇷Turkey | No Limit
+  - 🇷🇺Russia | No Limit
+- name: ⚡ Авто-выбор
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇳🇱Netherlands | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇹🇷Turkey | No Limit
+  - 🇫🇮Finland | 50Gb
+  - 🇸🇪Sweden | No Limit
+  - 🇫🇷France | No Limit
+  - 🇭🇺Hungary | No Limit
+  - 🇭🇺Hungary | No Limit
+  - 🇪🇸Spain | No Limit
+  - 🇪🇸Spain | No Limit
+  - 🇷🇺Russia | No Limit
+  - 🇹🇷Turkey | No Limit
+  - 🇷🇺Russia | No Limit
+rules:
+- GEOIP,CN,DIRECT
+- MATCH,🚀 Выбор Сервера
