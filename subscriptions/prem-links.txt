@@ -1,3 +1,8 @@
+#profile-update-interval: 1
+#profile-title: 🦄ShadowVPN
+#support-url: https://t.me/ShadowVpnSupport_bot
+#profile-web-page-url: https://t.me/ShadowVpn_net
+#announce: Конфигурации для участников приватного клуба🦄
 vless://a6efd1ab-2d4f-424a-b11d-dca5d8623705@all109.harknmav.fun:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=Us7U978Q2jZwoEFoPxkv-fR1A4N0ehZVX_T9KwzXH3s&security=reality&sid=f69d7af6d5fc3e0c&sni=max.ru&type=tcp#🇷🇺Russia | No Limit
 vless://74b6eee7-898d-4f32-9987-a035210ec5e2@37.139.32.212:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&security=reality&sid=f85b0cdd7d20c84c&sni=max.ru&type=tcp#🇷🇺Russia | No Limit
 vless://a6efd1ab-2d4f-424a-b11d-dca5d8623705@5-gaming.harknmav.fun:7443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=drNmkUbI5-4gRjLGYdYtleNnOIHeH4db_YQuFbHItDA&security=reality&sid=ad1ba2b350388c89&sni=ads.x5.ru&type=tcp#🇷🇺Russia | No Limit
