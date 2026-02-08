@@ -3,7 +3,7 @@
 #support-url: https://t.me/ShadowVpnSupport_bot
 #profile-web-page-url: https://t.me/ShadowVpn_net
 #announce: 💻Основная подписка для дома с Wi-Fi
-vless://93a20fae-54f4-4e25-93ef-995b3e52fc04@45.89.53.110:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=61Svf2Pd08DRvSgCHyI_J-F7lhPLd_hg3mS_byFl_h0&security=reality&sid=cefa7ca418bd0dcb&sni=tradingview.com&type=tcp#%5B%F0%9F%87%AB%F0%9F%87%AE%5D%20%5Bvl-rl-tcp%5D%20%5B02.02.26%5D%20(1)
+vless://93a20fae-54f4-4e25-93ef-995b3e52fc04@45.89.53.110:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=61Svf2Pd08DRvSgCHyI_J-F7lhPLd_hg3mS_byFl_h0&security=reality&sid=cefa7ca418bd0dcb&sni=tradingview.com&type=tcp#%5B%F0%9F%87%AB%F0%9F%87%AE%5D%20%5Bvl-rl-tcp%5D%20%5B02.02.26%5D%20
 vless://a3ea154c-2827-4ceb-aae7-0fe743ce9f73@142.93.101.216:7008?encryption=none&fp=chrome&pbk=OYuAdC90TNjvXbmJJyCsP0i9RXjdR1g8nBcjk421Aws&security=reality&sid=de5765&sni=bebem.com&type=tcp#%5B%F0%9F%87%B3%F0%9F%87%B1%5D%20%5Bvl-rl-tcp%5D%20%5B02.02.26%5D%20
 vless://a3ea154c-2827-4ceb-aae7-0fe743ce9f73@142.93.101.216:7008?encryption=none&fp=chrome&pbk=OYuAdC90TNjvXbmJJyCsP0i9RXjdR1g8nBcjk421Aws&security=reality&sid=de5765&sni=bebem.com&type=tcp#%5B%F0%9F%87%B3%F0%9F%87%B1%5D%20%5Bvl-rl-tcp%5D%20%5B02.02.26%5D%20
 vless://1e1b9a1f-47cd-4cb2-a0dc-103a09e253ba@nl.iccgame.site:3000?encryption=none&headerType=http&host=chess.com&security=none&type=tcp#%5B%F0%9F%87%B3%F0%9F%87%B1%5D%20%5Bvl-no-tcp%5D%20%5B08.02.26%5D
