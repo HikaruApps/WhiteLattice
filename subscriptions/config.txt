@@ -2,7 +2,7 @@
 #profile-title: ☃️ ShadowNet
 #support-url: https://t.me/ShadowVpnSupport_bot
 #profile-web-page-url: https://t.me/ShadowVpn_net
-#announce: 💻Основная подписка для дома с Wi-Fi ⚠️Ведется тех-обслуживание
+#announce: 💻Основная подписка для дома с Wi-Fi 
 vless://d4de1f64-bf3c-4d97-9663-0091f8c07359@logggg.nammknammknammknammknammkb2.ir:443?security=reality&encryption=none&pbk=RravQN06gzsNsm5ojEhZGrxBgLGEpqEThtHEltdjpBk&headerType=none&allowinsecure=0&type=tcp&sni=logggg.nammknammknammknammknammkb2.ir&sid=b3d76d#[🇫🇮] [vl-rl-tcp] [12.02.26]
 vless://fd058cd3-55fa-43ce-a634-1920b7d12c45@104.128.134.181:34816?security=none&encryption=none&headerType=none&type=tcp#[🇫🇮] [vl-no-tcp] [12.02.26]
 vless://05a6897b-bdea-46d9-8654-89bceb208504@104.128.134.181:34816?security=none&encryption=none&headerType=none&type=tcp#[🇫🇮] [vl-no-tcp] [12.02.26]
